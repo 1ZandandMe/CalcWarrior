@@ -10,8 +10,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # 添加可执行文件，告诉 CMake 要用哪些源文件来生成 exe
 add_executable(CalcWarrior 
-    code/example.cpp
-    code/shi.cpp
-    code/sin.cpp
-    code/ss.cpp
+    example.cpp
+    shi.cpp
+    sin.cpp
+    ss.cpp
 )
