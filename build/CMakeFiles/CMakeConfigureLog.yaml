@@ -5,21 +5,17 @@ events:
     kind: "message-v1"
     backtrace:
       - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     message: |
       The system is: Windows - 10.0.26200 - AMD64
   -
     kind: "find-v1"
     backtrace:
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
-    mode: "file"
-    variable: "src_in"
-    description: "Path to a file."
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
     settings:
       SearchFramework: "NEVER"
       SearchAppBundle: "NEVER"
@@ -29,109 +25,10 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "CMakeCCompilerId.c.in"
+      - "mingw32-make.exe"
     candidate_directories:
-      - "C:/CMake/share/cmake-4.2/Modules/"
-    found: "C:/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
-    search_context:
-      ENV{PATH}:
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "D:\\\u89e3\u538b\u8f6f\u4ef6\\Bandizip\\"
-        - "D:\\"
-        - "rogram Files\\Notepad++"
-        - "D:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "D:\\C++\\mingw64"
-        - "C:\\CMake\\bin"
-        - "D:\\Python\\Python314\\Scripts\\"
-        - "D:\\Python\\Python314\\"
-        - "C:\\Users\\\u521d\u89c1\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
-        - "D:\\C++\\mingw64"
-        - "D:\\\u4ee3\u7801ai\\Windsurf\\bin"
-        - "c:\\Users\\\u521d\u89c1\\.windsurf\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler:  
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 18.3.0-release-26070-10+3972042b7
-      鐢熸垚鍚姩鏃堕棿涓?2026/2/28 15:11:05銆?
-      
-      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\浠ｇ爜椤圭洰\\CalcWarrior\\build\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
-      PrepareForBuild:
-        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
-        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdC.tlog\\鈥濄€?
-      InitializeBuildStatus:
-        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
-      ClCompile:
-        D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
-        CMakeCCompilerId.c
-      Link:
-        D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> D:\\浠ｇ爜椤圭洰\\CalcWarrior\\build\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.exe
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_C_COMPILER=D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
-        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-      宸插畬鎴愮敓鎴愰」鐩€淒:\\浠ｇ爜椤圭洰\\CalcWarrior\\build\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
-      
-      宸叉垚鍔熺敓鎴愩€?
-          0 涓鍛?
-          0 涓敊璇?
-      
-      宸茬敤鏃堕棿 00:00:01.50
-      
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
-      
-      The C compiler identification is MSVC, found in:
-        D:/代码项目/CalcWarrior/build/CMakeFiles/4.2.3/CompilerIdC/CompilerIdC.exe
-      
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
-    mode: "program"
-    variable: "_CMAKE_TOOL_WITH_PATH"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "link"
-    candidate_directories:
-      - "D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -139,7 +36,7 @@ events:
       - "C:/Windows/System32/OpenSSH/"
       - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/"
       - "D:/"
-      - "D:/\u4ee3\u7801\u9879\u76ee/CalcWarrior/build/rogram Files/Notepad++/"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/"
       - "D:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "D:/C++/mingw64/"
@@ -149,397 +46,37 @@ events:
       - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/"
       - "D:/Microsoft VS Code/bin/"
       - "D:/\u4ee3\u7801ai/Windsurf/bin/"
-      - "C:/Users/\u521d\u89c1/.windsurf/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "c:/MinGW/bin/"
+      - "/MinGW/bin/"
+      - "/REGISTRY-NOTFOUND/MinGW/bin/"
     searched_directories:
-      - "D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
-    found: "D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+      - "C:/msys64/ucrt64/bin/mingw32-make.exe.com"
+    found: "C:/msys64/ucrt64/bin/mingw32-make.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\WINDOWS\\system32"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:/WINDOWS/System32/Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
         - "D:\\\u89e3\u538b\u8f6f\u4ef6\\Bandizip\\"
-        - "D:\\"
-        - "rogram Files\\Notepad++"
+        - "D:/"
+        - "rogram Files/Notepad++"
         - "D:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
         - "D:\\C++\\mingw64"
-        - "C:\\CMake\\bin"
+        - "C:/CMake/bin"
         - "D:\\Python\\Python314\\Scripts\\"
-        - "D:\\Python\\Python314\\"
+        - "D:/Python/Python314/"
         - "C:\\Users\\\u521d\u89c1\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
+        - "D:/Microsoft VS Code/bin"
         - "D:\\C++\\mingw64"
-        - "D:\\\u4ee3\u7801ai\\Windsurf\\bin"
-        - "c:\\Users\\\u521d\u89c1\\.windsurf\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
-    mode: "program"
-    variable: "_CMAKE_TOOL_WITH_PATH"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "lld-link"
-    candidate_directories:
-      - "D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/"
-      - "D:/"
-      - "D:/\u4ee3\u7801\u9879\u76ee/CalcWarrior/build/rogram Files/Notepad++/"
-      - "D:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "D:/C++/mingw64/"
-      - "C:/CMake/bin/"
-      - "D:/Python/Python314/Scripts/"
-      - "D:/Python/Python314/"
-      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/"
-      - "D:/Microsoft VS Code/bin/"
-      - "D:/\u4ee3\u7801ai/Windsurf/bin/"
-      - "C:/Users/\u521d\u89c1/.windsurf/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-    searched_directories:
-      - "D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
-      - "D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
-      - "D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
-      - "C:/Windows/System32/lld-link.com"
-      - "C:/Windows/System32/lld-link.exe"
-      - "C:/Windows/System32/lld-link"
-      - "C:/Windows/lld-link.com"
-      - "C:/Windows/lld-link.exe"
-      - "C:/Windows/lld-link"
-      - "C:/Windows/System32/wbem/lld-link.com"
-      - "C:/Windows/System32/wbem/lld-link.exe"
-      - "C:/Windows/System32/wbem/lld-link"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
-      - "C:/Windows/System32/OpenSSH/lld-link.com"
-      - "C:/Windows/System32/OpenSSH/lld-link.exe"
-      - "C:/Windows/System32/OpenSSH/lld-link"
-      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/lld-link.com"
-      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/lld-link.exe"
-      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/lld-link"
-      - "D:/lld-link.com"
-      - "D:/lld-link.exe"
-      - "D:/lld-link"
-      - "D:/\u4ee3\u7801\u9879\u76ee/CalcWarrior/build/rogram Files/Notepad++/lld-link.com"
-      - "D:/\u4ee3\u7801\u9879\u76ee/CalcWarrior/build/rogram Files/Notepad++/lld-link.exe"
-      - "D:/\u4ee3\u7801\u9879\u76ee/CalcWarrior/build/rogram Files/Notepad++/lld-link"
-      - "D:/Program Files/Git/cmd/lld-link.com"
-      - "D:/Program Files/Git/cmd/lld-link.exe"
-      - "D:/Program Files/Git/cmd/lld-link"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
-      - "D:/C++/mingw64/lld-link.com"
-      - "D:/C++/mingw64/lld-link.exe"
-      - "D:/C++/mingw64/lld-link"
-      - "C:/CMake/bin/lld-link.com"
-      - "C:/CMake/bin/lld-link.exe"
-      - "C:/CMake/bin/lld-link"
-      - "D:/Python/Python314/Scripts/lld-link.com"
-      - "D:/Python/Python314/Scripts/lld-link.exe"
-      - "D:/Python/Python314/Scripts/lld-link"
-      - "D:/Python/Python314/lld-link.com"
-      - "D:/Python/Python314/lld-link.exe"
-      - "D:/Python/Python314/lld-link"
-      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/lld-link.com"
-      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
-      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/lld-link"
-      - "D:/Microsoft VS Code/bin/lld-link.com"
-      - "D:/Microsoft VS Code/bin/lld-link.exe"
-      - "D:/Microsoft VS Code/bin/lld-link"
-      - "D:/\u4ee3\u7801ai/Windsurf/bin/lld-link.com"
-      - "D:/\u4ee3\u7801ai/Windsurf/bin/lld-link.exe"
-      - "D:/\u4ee3\u7801ai/Windsurf/bin/lld-link"
-      - "C:/Users/\u521d\u89c1/.windsurf/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.com"
-      - "C:/Users/\u521d\u89c1/.windsurf/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.exe"
-      - "C:/Users/\u521d\u89c1/.windsurf/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "D:\\\u89e3\u538b\u8f6f\u4ef6\\Bandizip\\"
-        - "D:\\"
-        - "rogram Files\\Notepad++"
-        - "D:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "D:\\C++\\mingw64"
-        - "C:\\CMake\\bin"
-        - "D:\\Python\\Python314\\Scripts\\"
-        - "D:\\Python\\Python314\\"
-        - "C:\\Users\\\u521d\u89c1\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
-        - "D:\\C++\\mingw64"
-        - "D:\\\u4ee3\u7801ai\\Windsurf\\bin"
-        - "c:\\Users\\\u521d\u89c1\\.windsurf\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
-    mode: "program"
-    variable: "CMAKE_LINKER"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "link"
-    candidate_directories:
-      - "D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/"
-      - "D:/"
-      - "D:/\u4ee3\u7801\u9879\u76ee/CalcWarrior/build/rogram Files/Notepad++/"
-      - "D:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "D:/C++/mingw64/"
-      - "C:/CMake/bin/"
-      - "D:/Python/Python314/Scripts/"
-      - "D:/Python/Python314/"
-      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/"
-      - "D:/Microsoft VS Code/bin/"
-      - "D:/\u4ee3\u7801ai/Windsurf/bin/"
-      - "C:/Users/\u521d\u89c1/.windsurf/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-    searched_directories:
-      - "D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
-    found: "D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
-    search_context:
-      ENV{PATH}:
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "D:\\\u89e3\u538b\u8f6f\u4ef6\\Bandizip\\"
-        - "D:\\"
-        - "rogram Files\\Notepad++"
-        - "D:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "D:\\C++\\mingw64"
-        - "C:\\CMake\\bin"
-        - "D:\\Python\\Python314\\Scripts\\"
-        - "D:\\Python\\Python314\\"
-        - "C:\\Users\\\u521d\u89c1\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
-        - "D:\\C++\\mingw64"
-        - "D:\\\u4ee3\u7801ai\\Windsurf\\bin"
-        - "c:\\Users\\\u521d\u89c1\\.windsurf\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
-    mode: "program"
-    variable: "CMAKE_MT"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "mt"
-    candidate_directories:
-      - "D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/"
-      - "D:/"
-      - "D:/\u4ee3\u7801\u9879\u76ee/CalcWarrior/build/rogram Files/Notepad++/"
-      - "D:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "D:/C++/mingw64/"
-      - "C:/CMake/bin/"
-      - "D:/Python/Python314/Scripts/"
-      - "D:/Python/Python314/"
-      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/"
-      - "D:/Microsoft VS Code/bin/"
-      - "D:/\u4ee3\u7801ai/Windsurf/bin/"
-      - "C:/Users/\u521d\u89c1/.windsurf/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-    searched_directories:
-      - "D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
-      - "D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
-      - "D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
-      - "C:/Windows/System32/mt.com"
-      - "C:/Windows/System32/mt.exe"
-      - "C:/Windows/System32/mt"
-      - "C:/Windows/mt.com"
-      - "C:/Windows/mt.exe"
-      - "C:/Windows/mt"
-      - "C:/Windows/System32/wbem/mt.com"
-      - "C:/Windows/System32/wbem/mt.exe"
-      - "C:/Windows/System32/wbem/mt"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
-      - "C:/Windows/System32/OpenSSH/mt.com"
-      - "C:/Windows/System32/OpenSSH/mt.exe"
-      - "C:/Windows/System32/OpenSSH/mt"
-      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/mt.com"
-      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/mt.exe"
-      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/mt"
-      - "D:/mt.com"
-      - "D:/mt.exe"
-      - "D:/mt"
-      - "D:/\u4ee3\u7801\u9879\u76ee/CalcWarrior/build/rogram Files/Notepad++/mt.com"
-      - "D:/\u4ee3\u7801\u9879\u76ee/CalcWarrior/build/rogram Files/Notepad++/mt.exe"
-      - "D:/\u4ee3\u7801\u9879\u76ee/CalcWarrior/build/rogram Files/Notepad++/mt"
-      - "D:/Program Files/Git/cmd/mt.com"
-      - "D:/Program Files/Git/cmd/mt.exe"
-      - "D:/Program Files/Git/cmd/mt"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
-      - "D:/C++/mingw64/mt.com"
-      - "D:/C++/mingw64/mt.exe"
-      - "D:/C++/mingw64/mt"
-      - "C:/CMake/bin/mt.com"
-      - "C:/CMake/bin/mt.exe"
-      - "C:/CMake/bin/mt"
-      - "D:/Python/Python314/Scripts/mt.com"
-      - "D:/Python/Python314/Scripts/mt.exe"
-      - "D:/Python/Python314/Scripts/mt"
-      - "D:/Python/Python314/mt.com"
-      - "D:/Python/Python314/mt.exe"
-      - "D:/Python/Python314/mt"
-      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/mt.com"
-      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/mt.exe"
-      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/mt"
-      - "D:/Microsoft VS Code/bin/mt.com"
-      - "D:/Microsoft VS Code/bin/mt.exe"
-      - "D:/Microsoft VS Code/bin/mt"
-      - "D:/\u4ee3\u7801ai/Windsurf/bin/mt.com"
-      - "D:/\u4ee3\u7801ai/Windsurf/bin/mt.exe"
-      - "D:/\u4ee3\u7801ai/Windsurf/bin/mt"
-      - "C:/Users/\u521d\u89c1/.windsurf/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/mt.com"
-      - "C:/Users/\u521d\u89c1/.windsurf/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/mt.exe"
-      - "C:/Users/\u521d\u89c1/.windsurf/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/mt"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "D:\\\u89e3\u538b\u8f6f\u4ef6\\Bandizip\\"
-        - "D:\\"
-        - "rogram Files\\Notepad++"
-        - "D:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "D:\\C++\\mingw64"
-        - "C:\\CMake\\bin"
-        - "D:\\Python\\Python314\\Scripts\\"
-        - "D:\\Python\\Python314\\"
-        - "C:\\Users\\\u521d\u89c1\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
-        - "D:\\C++\\mingw64"
-        - "D:\\\u4ee3\u7801ai\\Windsurf\\bin"
-        - "c:\\Users\\\u521d\u89c1\\.windsurf\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
-    mode: "program"
-    variable: "CMAKE_AR"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "lib"
-    candidate_directories:
-      - "D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/"
-      - "D:/"
-      - "D:/\u4ee3\u7801\u9879\u76ee/CalcWarrior/build/rogram Files/Notepad++/"
-      - "D:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "D:/C++/mingw64/"
-      - "C:/CMake/bin/"
-      - "D:/Python/Python314/Scripts/"
-      - "D:/Python/Python314/"
-      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/"
-      - "D:/Microsoft VS Code/bin/"
-      - "D:/\u4ee3\u7801ai/Windsurf/bin/"
-      - "C:/Users/\u521d\u89c1/.windsurf/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-    searched_directories:
-      - "D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
-    found: "D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
-    search_context:
-      ENV{PATH}:
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "D:\\\u89e3\u538b\u8f6f\u4ef6\\Bandizip\\"
-        - "D:\\"
-        - "rogram Files\\Notepad++"
-        - "D:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "D:\\C++\\mingw64"
-        - "C:\\CMake\\bin"
-        - "D:\\Python\\Python314\\Scripts\\"
-        - "D:\\Python\\Python314\\"
-        - "C:\\Users\\\u521d\u89c1\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
-        - "D:\\C++\\mingw64"
-        - "D:\\\u4ee3\u7801ai\\Windsurf\\bin"
-        - "c:\\Users\\\u521d\u89c1\\.windsurf\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "D:/\u4ee3\u7801ai/Windsurf/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -548,7 +85,7 @@ events:
       - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -567,90 +104,58 @@ events:
     found: "C:/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "C:\\WINDOWS\\system32"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:/WINDOWS/System32/Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
         - "D:\\\u89e3\u538b\u8f6f\u4ef6\\Bandizip\\"
-        - "D:\\"
-        - "rogram Files\\Notepad++"
+        - "D:/"
+        - "rogram Files/Notepad++"
         - "D:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
         - "D:\\C++\\mingw64"
-        - "C:\\CMake\\bin"
+        - "C:/CMake/bin"
         - "D:\\Python\\Python314\\Scripts\\"
-        - "D:\\Python\\Python314\\"
+        - "D:/Python/Python314/"
         - "C:\\Users\\\u521d\u89c1\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
+        - "D:/Microsoft VS Code/bin"
         - "D:\\C++\\mingw64"
-        - "D:\\\u4ee3\u7801ai\\Windsurf\\bin"
-        - "c:\\Users\\\u521d\u89c1\\.windsurf\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "D:/\u4ee3\u7801ai/Windsurf/bin"
   -
     kind: "message-v1"
     backtrace:
       - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler:  
+      Compiler: C:/msys64/ucrt64/bin/g++.exe 
       Build flags: 
       Id flags:  
       
       The output was:
       0
-      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 18.3.0-release-26070-10+3972042b7
-      鐢熸垚鍚姩鏃堕棿涓?2026/2/28 15:11:07銆?
-      
-      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\浠ｇ爜椤圭洰\\CalcWarrior\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
-      PrepareForBuild:
-        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
-        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
-      InitializeBuildStatus:
-        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
-      ClCompile:
-        D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
-        CMakeCXXCompilerId.cpp
-      Link:
-        D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> D:\\浠ｇ爜椤圭洰\\CalcWarrior\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.exe
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_CXX_COMPILER=D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
-        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-      宸插畬鎴愮敓鎴愰」鐩€淒:\\浠ｇ爜椤圭洰\\CalcWarrior\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
-      
-      宸叉垚鍔熺敓鎴愩€?
-          0 涓鍛?
-          0 涓敊璇?
-      
-      宸茬敤鏃堕棿 00:00:01.16
       
       
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
-      
-      The CXX compiler identification is MSVC, found in:
-        D:/代码项目/CalcWarrior/build/CMakeFiles/4.2.3/CompilerIdCXX/CompilerIdCXX.exe
+      The CXX compiler identification is GNU, found in:
+        D:/CodeBerew/CalcWarrior/build/CMakeFiles/4.2.3/CompilerIdCXX/a.exe
       
   -
     kind: "find-v1"
     backtrace:
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
-    variable: "_CMAKE_TOOL_WITH_PATH"
+    variable: "CMAKE_AR"
     description: "Path to a program."
     settings:
       SearchFramework: "NEVER"
@@ -661,9 +166,10 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "lld-link"
+      - "ar"
     candidate_directories:
-      - "D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -671,7 +177,7 @@ events:
       - "C:/Windows/System32/OpenSSH/"
       - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/"
       - "D:/"
-      - "D:/\u4ee3\u7801\u9879\u76ee/CalcWarrior/build/rogram Files/Notepad++/"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/"
       - "D:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "D:/C++/mingw64/"
@@ -681,96 +187,1237 @@ events:
       - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/"
       - "D:/Microsoft VS Code/bin/"
       - "D:/\u4ee3\u7801ai/Windsurf/bin/"
-      - "C:/Users/\u521d\u89c1/.windsurf/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
-      - "D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
-      - "D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
-      - "D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
-      - "C:/Windows/System32/lld-link.com"
-      - "C:/Windows/System32/lld-link.exe"
-      - "C:/Windows/System32/lld-link"
-      - "C:/Windows/lld-link.com"
-      - "C:/Windows/lld-link.exe"
-      - "C:/Windows/lld-link"
-      - "C:/Windows/System32/wbem/lld-link.com"
-      - "C:/Windows/System32/wbem/lld-link.exe"
-      - "C:/Windows/System32/wbem/lld-link"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
-      - "C:/Windows/System32/OpenSSH/lld-link.com"
-      - "C:/Windows/System32/OpenSSH/lld-link.exe"
-      - "C:/Windows/System32/OpenSSH/lld-link"
-      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/lld-link.com"
-      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/lld-link.exe"
-      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/lld-link"
-      - "D:/lld-link.com"
-      - "D:/lld-link.exe"
-      - "D:/lld-link"
-      - "D:/\u4ee3\u7801\u9879\u76ee/CalcWarrior/build/rogram Files/Notepad++/lld-link.com"
-      - "D:/\u4ee3\u7801\u9879\u76ee/CalcWarrior/build/rogram Files/Notepad++/lld-link.exe"
-      - "D:/\u4ee3\u7801\u9879\u76ee/CalcWarrior/build/rogram Files/Notepad++/lld-link"
-      - "D:/Program Files/Git/cmd/lld-link.com"
-      - "D:/Program Files/Git/cmd/lld-link.exe"
-      - "D:/Program Files/Git/cmd/lld-link"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
-      - "D:/C++/mingw64/lld-link.com"
-      - "D:/C++/mingw64/lld-link.exe"
-      - "D:/C++/mingw64/lld-link"
-      - "C:/CMake/bin/lld-link.com"
-      - "C:/CMake/bin/lld-link.exe"
-      - "C:/CMake/bin/lld-link"
-      - "D:/Python/Python314/Scripts/lld-link.com"
-      - "D:/Python/Python314/Scripts/lld-link.exe"
-      - "D:/Python/Python314/Scripts/lld-link"
-      - "D:/Python/Python314/lld-link.com"
-      - "D:/Python/Python314/lld-link.exe"
-      - "D:/Python/Python314/lld-link"
-      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/lld-link.com"
-      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
-      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/lld-link"
-      - "D:/Microsoft VS Code/bin/lld-link.com"
-      - "D:/Microsoft VS Code/bin/lld-link.exe"
-      - "D:/Microsoft VS Code/bin/lld-link"
-      - "D:/\u4ee3\u7801ai/Windsurf/bin/lld-link.com"
-      - "D:/\u4ee3\u7801ai/Windsurf/bin/lld-link.exe"
-      - "D:/\u4ee3\u7801ai/Windsurf/bin/lld-link"
-      - "C:/Users/\u521d\u89c1/.windsurf/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.com"
-      - "C:/Users/\u521d\u89c1/.windsurf/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.exe"
-      - "C:/Users/\u521d\u89c1/.windsurf/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link"
+      - "C:/msys64/ucrt64/bin/ar.com"
+    found: "C:/msys64/ucrt64/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\\u89e3\u538b\u8f6f\u4ef6\\Bandizip\\"
+        - "D:/"
+        - "rogram Files/Notepad++"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:\\C++\\mingw64"
+        - "C:/CMake/bin"
+        - "D:\\Python\\Python314\\Scripts\\"
+        - "D:/Python/Python314/"
+        - "C:\\Users\\\u521d\u89c1\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\C++\\mingw64"
+        - "D:/\u4ee3\u7801ai/Windsurf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/"
+      - "D:/"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/"
+      - "D:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/C++/mingw64/"
+      - "C:/CMake/bin/"
+      - "D:/Python/Python314/Scripts/"
+      - "D:/Python/Python314/"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/ranlib.com"
+    found: "C:/msys64/ucrt64/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\\u89e3\u538b\u8f6f\u4ef6\\Bandizip\\"
+        - "D:/"
+        - "rogram Files/Notepad++"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:\\C++\\mingw64"
+        - "C:/CMake/bin"
+        - "D:\\Python\\Python314\\Scripts\\"
+        - "D:/Python/Python314/"
+        - "C:\\Users\\\u521d\u89c1\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\C++\\mingw64"
+        - "D:/\u4ee3\u7801ai/Windsurf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/"
+      - "D:/"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/"
+      - "D:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/C++/mingw64/"
+      - "C:/CMake/bin/"
+      - "D:/Python/Python314/Scripts/"
+      - "D:/Python/Python314/"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/strip.com"
+    found: "C:/msys64/ucrt64/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\\u89e3\u538b\u8f6f\u4ef6\\Bandizip\\"
+        - "D:/"
+        - "rogram Files/Notepad++"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:\\C++\\mingw64"
+        - "C:/CMake/bin"
+        - "D:\\Python\\Python314\\Scripts\\"
+        - "D:/Python/Python314/"
+        - "C:\\Users\\\u521d\u89c1\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\C++\\mingw64"
+        - "D:/\u4ee3\u7801ai/Windsurf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/"
+      - "D:/"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/"
+      - "D:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/C++/mingw64/"
+      - "C:/CMake/bin/"
+      - "D:/Python/Python314/Scripts/"
+      - "D:/Python/Python314/"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/ld.com"
+    found: "C:/msys64/ucrt64/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\\u89e3\u538b\u8f6f\u4ef6\\Bandizip\\"
+        - "D:/"
+        - "rogram Files/Notepad++"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:\\C++\\mingw64"
+        - "C:/CMake/bin"
+        - "D:\\Python\\Python314\\Scripts\\"
+        - "D:/Python/Python314/"
+        - "C:\\Users\\\u521d\u89c1\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\C++\\mingw64"
+        - "D:/\u4ee3\u7801ai/Windsurf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/"
+      - "D:/"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/"
+      - "D:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/C++/mingw64/"
+      - "C:/CMake/bin/"
+      - "D:/Python/Python314/Scripts/"
+      - "D:/Python/Python314/"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/nm.com"
+    found: "C:/msys64/ucrt64/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\\u89e3\u538b\u8f6f\u4ef6\\Bandizip\\"
+        - "D:/"
+        - "rogram Files/Notepad++"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:\\C++\\mingw64"
+        - "C:/CMake/bin"
+        - "D:\\Python\\Python314\\Scripts\\"
+        - "D:/Python/Python314/"
+        - "C:\\Users\\\u521d\u89c1\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\C++\\mingw64"
+        - "D:/\u4ee3\u7801ai/Windsurf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/"
+      - "D:/"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/"
+      - "D:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/C++/mingw64/"
+      - "C:/CMake/bin/"
+      - "D:/Python/Python314/Scripts/"
+      - "D:/Python/Python314/"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/objdump.com"
+    found: "C:/msys64/ucrt64/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\\u89e3\u538b\u8f6f\u4ef6\\Bandizip\\"
+        - "D:/"
+        - "rogram Files/Notepad++"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:\\C++\\mingw64"
+        - "C:/CMake/bin"
+        - "D:\\Python\\Python314\\Scripts\\"
+        - "D:/Python/Python314/"
+        - "C:\\Users\\\u521d\u89c1\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\C++\\mingw64"
+        - "D:/\u4ee3\u7801ai/Windsurf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/"
+      - "D:/"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/"
+      - "D:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/C++/mingw64/"
+      - "C:/CMake/bin/"
+      - "D:/Python/Python314/Scripts/"
+      - "D:/Python/Python314/"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/objcopy.com"
+    found: "C:/msys64/ucrt64/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\\u89e3\u538b\u8f6f\u4ef6\\Bandizip\\"
+        - "D:/"
+        - "rogram Files/Notepad++"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:\\C++\\mingw64"
+        - "C:/CMake/bin"
+        - "D:\\Python\\Python314\\Scripts\\"
+        - "D:/Python/Python314/"
+        - "C:\\Users\\\u521d\u89c1\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\C++\\mingw64"
+        - "D:/\u4ee3\u7801ai/Windsurf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/"
+      - "D:/"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/"
+      - "D:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/C++/mingw64/"
+      - "C:/CMake/bin/"
+      - "D:/Python/Python314/Scripts/"
+      - "D:/Python/Python314/"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/readelf.com"
+    found: "C:/msys64/ucrt64/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\\u89e3\u538b\u8f6f\u4ef6\\Bandizip\\"
+        - "D:/"
+        - "rogram Files/Notepad++"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:\\C++\\mingw64"
+        - "C:/CMake/bin"
+        - "D:\\Python\\Python314\\Scripts\\"
+        - "D:/Python/Python314/"
+        - "C:\\Users\\\u521d\u89c1\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\C++\\mingw64"
+        - "D:/\u4ee3\u7801ai/Windsurf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/"
+      - "D:/"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/"
+      - "D:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/C++/mingw64/"
+      - "C:/CMake/bin/"
+      - "D:/Python/Python314/Scripts/"
+      - "D:/Python/Python314/"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/dlltool.com"
+    found: "C:/msys64/ucrt64/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\\u89e3\u538b\u8f6f\u4ef6\\Bandizip\\"
+        - "D:/"
+        - "rogram Files/Notepad++"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:\\C++\\mingw64"
+        - "C:/CMake/bin"
+        - "D:\\Python\\Python314\\Scripts\\"
+        - "D:/Python/Python314/"
+        - "C:\\Users\\\u521d\u89c1\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\C++\\mingw64"
+        - "D:/\u4ee3\u7801ai/Windsurf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/"
+      - "D:/"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/"
+      - "D:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/C++/mingw64/"
+      - "C:/CMake/bin/"
+      - "D:/Python/Python314/Scripts/"
+      - "D:/Python/Python314/"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/addr2line.com"
+    found: "C:/msys64/ucrt64/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\\u89e3\u538b\u8f6f\u4ef6\\Bandizip\\"
+        - "D:/"
+        - "rogram Files/Notepad++"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:\\C++\\mingw64"
+        - "C:/CMake/bin"
+        - "D:\\Python\\Python314\\Scripts\\"
+        - "D:/Python/Python314/"
+        - "C:\\Users\\\u521d\u89c1\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\C++\\mingw64"
+        - "D:/\u4ee3\u7801ai/Windsurf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/"
+      - "D:/"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/"
+      - "D:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/C++/mingw64/"
+      - "C:/CMake/bin/"
+      - "D:/Python/Python314/Scripts/"
+      - "D:/Python/Python314/"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/tapi.com"
+      - "C:/msys64/ucrt64/bin/tapi.exe"
+      - "C:/msys64/ucrt64/bin/tapi"
+      - "C:/msys64/usr/bin/tapi.com"
+      - "C:/msys64/usr/bin/tapi.exe"
+      - "C:/msys64/usr/bin/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/tapi.com"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/tapi.exe"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/tapi"
+      - "D:/tapi.com"
+      - "D:/tapi.exe"
+      - "D:/tapi"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/tapi.com"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/tapi.exe"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/tapi"
+      - "D:/Program Files/Git/cmd/tapi.com"
+      - "D:/Program Files/Git/cmd/tapi.exe"
+      - "D:/Program Files/Git/cmd/tapi"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi"
+      - "D:/C++/mingw64/tapi.com"
+      - "D:/C++/mingw64/tapi.exe"
+      - "D:/C++/mingw64/tapi"
+      - "C:/CMake/bin/tapi.com"
+      - "C:/CMake/bin/tapi.exe"
+      - "C:/CMake/bin/tapi"
+      - "D:/Python/Python314/Scripts/tapi.com"
+      - "D:/Python/Python314/Scripts/tapi.exe"
+      - "D:/Python/Python314/Scripts/tapi"
+      - "D:/Python/Python314/tapi.com"
+      - "D:/Python/Python314/tapi.exe"
+      - "D:/Python/Python314/tapi"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "D:/Microsoft VS Code/bin/tapi.com"
+      - "D:/Microsoft VS Code/bin/tapi.exe"
+      - "D:/Microsoft VS Code/bin/tapi"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/tapi.com"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/tapi.exe"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/tapi"
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\WINDOWS\\system32"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:/WINDOWS/System32/Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
         - "D:\\\u89e3\u538b\u8f6f\u4ef6\\Bandizip\\"
-        - "D:\\"
-        - "rogram Files\\Notepad++"
+        - "D:/"
+        - "rogram Files/Notepad++"
         - "D:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
         - "D:\\C++\\mingw64"
-        - "C:\\CMake\\bin"
+        - "C:/CMake/bin"
         - "D:\\Python\\Python314\\Scripts\\"
-        - "D:\\Python\\Python314\\"
+        - "D:/Python/Python314/"
         - "C:\\Users\\\u521d\u89c1\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
+        - "D:/Microsoft VS Code/bin"
         - "D:\\C++\\mingw64"
-        - "D:\\\u4ee3\u7801ai\\Windsurf\\bin"
-        - "c:\\Users\\\u521d\u89c1\\.windsurf\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "D:/\u4ee3\u7801ai/Windsurf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/"
+      - "D:/"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/"
+      - "D:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/C++/mingw64/"
+      - "C:/CMake/bin/"
+      - "D:/Python/Python314/Scripts/"
+      - "D:/Python/Python314/"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/gcc-ar-15.2.com"
+      - "C:/msys64/ucrt64/bin/gcc-ar-15.2.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ar-15.2"
+      - "C:/msys64/usr/bin/gcc-ar-15.2.com"
+      - "C:/msys64/usr/bin/gcc-ar-15.2.exe"
+      - "C:/msys64/usr/bin/gcc-ar-15.2"
+      - "C:/Windows/System32/gcc-ar-15.2.com"
+      - "C:/Windows/System32/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/gcc-ar-15.2"
+      - "C:/Windows/gcc-ar-15.2.com"
+      - "C:/Windows/gcc-ar-15.2.exe"
+      - "C:/Windows/gcc-ar-15.2"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2.com"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/gcc-ar-15.2.com"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/gcc-ar-15.2.exe"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/gcc-ar-15.2"
+      - "D:/gcc-ar-15.2.com"
+      - "D:/gcc-ar-15.2.exe"
+      - "D:/gcc-ar-15.2"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/gcc-ar-15.2.com"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/gcc-ar-15.2.exe"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/gcc-ar-15.2"
+      - "D:/Program Files/Git/cmd/gcc-ar-15.2.com"
+      - "D:/Program Files/Git/cmd/gcc-ar-15.2.exe"
+      - "D:/Program Files/Git/cmd/gcc-ar-15.2"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2"
+      - "D:/C++/mingw64/gcc-ar-15.2.com"
+      - "D:/C++/mingw64/gcc-ar-15.2.exe"
+      - "D:/C++/mingw64/gcc-ar-15.2"
+      - "C:/CMake/bin/gcc-ar-15.2.com"
+      - "C:/CMake/bin/gcc-ar-15.2.exe"
+      - "C:/CMake/bin/gcc-ar-15.2"
+      - "D:/Python/Python314/Scripts/gcc-ar-15.2.com"
+      - "D:/Python/Python314/Scripts/gcc-ar-15.2.exe"
+      - "D:/Python/Python314/Scripts/gcc-ar-15.2"
+      - "D:/Python/Python314/gcc-ar-15.2.com"
+      - "D:/Python/Python314/gcc-ar-15.2.exe"
+      - "D:/Python/Python314/gcc-ar-15.2"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2.com"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2.exe"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2"
+      - "D:/Microsoft VS Code/bin/gcc-ar-15.2.com"
+      - "D:/Microsoft VS Code/bin/gcc-ar-15.2.exe"
+      - "D:/Microsoft VS Code/bin/gcc-ar-15.2"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/gcc-ar-15.2.com"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/gcc-ar-15.2.exe"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/gcc-ar-15.2"
+      - "C:/msys64/ucrt64/bin/gcc-ar-15.com"
+      - "C:/msys64/ucrt64/bin/gcc-ar-15.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ar-15"
+      - "C:/msys64/usr/bin/gcc-ar-15.com"
+      - "C:/msys64/usr/bin/gcc-ar-15.exe"
+      - "C:/msys64/usr/bin/gcc-ar-15"
+      - "C:/Windows/System32/gcc-ar-15.com"
+      - "C:/Windows/System32/gcc-ar-15.exe"
+      - "C:/Windows/System32/gcc-ar-15"
+      - "C:/Windows/gcc-ar-15.com"
+      - "C:/Windows/gcc-ar-15.exe"
+      - "C:/Windows/gcc-ar-15"
+      - "C:/Windows/System32/wbem/gcc-ar-15.com"
+      - "C:/Windows/System32/wbem/gcc-ar-15.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/gcc-ar-15.com"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/gcc-ar-15.exe"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/gcc-ar-15"
+      - "D:/gcc-ar-15.com"
+      - "D:/gcc-ar-15.exe"
+      - "D:/gcc-ar-15"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/gcc-ar-15.com"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/gcc-ar-15.exe"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/gcc-ar-15"
+      - "D:/Program Files/Git/cmd/gcc-ar-15.com"
+      - "D:/Program Files/Git/cmd/gcc-ar-15.exe"
+      - "D:/Program Files/Git/cmd/gcc-ar-15"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15"
+      - "D:/C++/mingw64/gcc-ar-15.com"
+      - "D:/C++/mingw64/gcc-ar-15.exe"
+      - "D:/C++/mingw64/gcc-ar-15"
+      - "C:/CMake/bin/gcc-ar-15.com"
+      - "C:/CMake/bin/gcc-ar-15.exe"
+      - "C:/CMake/bin/gcc-ar-15"
+      - "D:/Python/Python314/Scripts/gcc-ar-15.com"
+      - "D:/Python/Python314/Scripts/gcc-ar-15.exe"
+      - "D:/Python/Python314/Scripts/gcc-ar-15"
+      - "D:/Python/Python314/gcc-ar-15.com"
+      - "D:/Python/Python314/gcc-ar-15.exe"
+      - "D:/Python/Python314/gcc-ar-15"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.com"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.exe"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/gcc-ar-15"
+      - "D:/Microsoft VS Code/bin/gcc-ar-15.com"
+      - "D:/Microsoft VS Code/bin/gcc-ar-15.exe"
+      - "D:/Microsoft VS Code/bin/gcc-ar-15"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/gcc-ar-15.com"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/gcc-ar-15.exe"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/gcc-ar-15"
+      - "C:/msys64/ucrt64/bin/gcc-ar15.com"
+      - "C:/msys64/ucrt64/bin/gcc-ar15.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ar15"
+      - "C:/msys64/usr/bin/gcc-ar15.com"
+      - "C:/msys64/usr/bin/gcc-ar15.exe"
+      - "C:/msys64/usr/bin/gcc-ar15"
+      - "C:/Windows/System32/gcc-ar15.com"
+      - "C:/Windows/System32/gcc-ar15.exe"
+      - "C:/Windows/System32/gcc-ar15"
+      - "C:/Windows/gcc-ar15.com"
+      - "C:/Windows/gcc-ar15.exe"
+      - "C:/Windows/gcc-ar15"
+      - "C:/Windows/System32/wbem/gcc-ar15.com"
+      - "C:/Windows/System32/wbem/gcc-ar15.exe"
+      - "C:/Windows/System32/wbem/gcc-ar15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/gcc-ar15.com"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/gcc-ar15.exe"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/gcc-ar15"
+      - "D:/gcc-ar15.com"
+      - "D:/gcc-ar15.exe"
+      - "D:/gcc-ar15"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/gcc-ar15.com"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/gcc-ar15.exe"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/gcc-ar15"
+      - "D:/Program Files/Git/cmd/gcc-ar15.com"
+      - "D:/Program Files/Git/cmd/gcc-ar15.exe"
+      - "D:/Program Files/Git/cmd/gcc-ar15"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar15.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar15.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar15"
+      - "D:/C++/mingw64/gcc-ar15.com"
+      - "D:/C++/mingw64/gcc-ar15.exe"
+      - "D:/C++/mingw64/gcc-ar15"
+      - "C:/CMake/bin/gcc-ar15.com"
+      - "C:/CMake/bin/gcc-ar15.exe"
+      - "C:/CMake/bin/gcc-ar15"
+      - "D:/Python/Python314/Scripts/gcc-ar15.com"
+      - "D:/Python/Python314/Scripts/gcc-ar15.exe"
+      - "D:/Python/Python314/Scripts/gcc-ar15"
+      - "D:/Python/Python314/gcc-ar15.com"
+      - "D:/Python/Python314/gcc-ar15.exe"
+      - "D:/Python/Python314/gcc-ar15"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/gcc-ar15.com"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/gcc-ar15.exe"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/gcc-ar15"
+      - "D:/Microsoft VS Code/bin/gcc-ar15.com"
+      - "D:/Microsoft VS Code/bin/gcc-ar15.exe"
+      - "D:/Microsoft VS Code/bin/gcc-ar15"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/gcc-ar15.com"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/gcc-ar15.exe"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/gcc-ar15"
+      - "C:/msys64/ucrt64/bin/gcc-ar.com"
+    found: "C:/msys64/ucrt64/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\\u89e3\u538b\u8f6f\u4ef6\\Bandizip\\"
+        - "D:/"
+        - "rogram Files/Notepad++"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:\\C++\\mingw64"
+        - "C:/CMake/bin"
+        - "D:\\Python\\Python314\\Scripts\\"
+        - "D:/Python/Python314/"
+        - "C:\\Users\\\u521d\u89c1\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\C++\\mingw64"
+        - "D:/\u4ee3\u7801ai/Windsurf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/"
+      - "D:/"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/"
+      - "D:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/C++/mingw64/"
+      - "C:/CMake/bin/"
+      - "D:/Python/Python314/Scripts/"
+      - "D:/Python/Python314/"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-15.2.com"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-15.2.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-15.2"
+      - "C:/msys64/usr/bin/gcc-ranlib-15.2.com"
+      - "C:/msys64/usr/bin/gcc-ranlib-15.2.exe"
+      - "C:/msys64/usr/bin/gcc-ranlib-15.2"
+      - "C:/Windows/System32/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/gcc-ranlib-15.2"
+      - "C:/Windows/gcc-ranlib-15.2.com"
+      - "C:/Windows/gcc-ranlib-15.2.exe"
+      - "C:/Windows/gcc-ranlib-15.2"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/gcc-ranlib-15.2.com"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/gcc-ranlib-15.2.exe"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/gcc-ranlib-15.2"
+      - "D:/gcc-ranlib-15.2.com"
+      - "D:/gcc-ranlib-15.2.exe"
+      - "D:/gcc-ranlib-15.2"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/gcc-ranlib-15.2.com"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/gcc-ranlib-15.2.exe"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/gcc-ranlib-15.2"
+      - "D:/Program Files/Git/cmd/gcc-ranlib-15.2.com"
+      - "D:/Program Files/Git/cmd/gcc-ranlib-15.2.exe"
+      - "D:/Program Files/Git/cmd/gcc-ranlib-15.2"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2"
+      - "D:/C++/mingw64/gcc-ranlib-15.2.com"
+      - "D:/C++/mingw64/gcc-ranlib-15.2.exe"
+      - "D:/C++/mingw64/gcc-ranlib-15.2"
+      - "C:/CMake/bin/gcc-ranlib-15.2.com"
+      - "C:/CMake/bin/gcc-ranlib-15.2.exe"
+      - "C:/CMake/bin/gcc-ranlib-15.2"
+      - "D:/Python/Python314/Scripts/gcc-ranlib-15.2.com"
+      - "D:/Python/Python314/Scripts/gcc-ranlib-15.2.exe"
+      - "D:/Python/Python314/Scripts/gcc-ranlib-15.2"
+      - "D:/Python/Python314/gcc-ranlib-15.2.com"
+      - "D:/Python/Python314/gcc-ranlib-15.2.exe"
+      - "D:/Python/Python314/gcc-ranlib-15.2"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2.com"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2.exe"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib-15.2.com"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib-15.2.exe"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib-15.2"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/gcc-ranlib-15.2.com"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/gcc-ranlib-15.2.exe"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/gcc-ranlib-15.2"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-15.com"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-15.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-15"
+      - "C:/msys64/usr/bin/gcc-ranlib-15.com"
+      - "C:/msys64/usr/bin/gcc-ranlib-15.exe"
+      - "C:/msys64/usr/bin/gcc-ranlib-15"
+      - "C:/Windows/System32/gcc-ranlib-15.com"
+      - "C:/Windows/System32/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/gcc-ranlib-15"
+      - "C:/Windows/gcc-ranlib-15.com"
+      - "C:/Windows/gcc-ranlib-15.exe"
+      - "C:/Windows/gcc-ranlib-15"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/gcc-ranlib-15.com"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/gcc-ranlib-15.exe"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/gcc-ranlib-15"
+      - "D:/gcc-ranlib-15.com"
+      - "D:/gcc-ranlib-15.exe"
+      - "D:/gcc-ranlib-15"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/gcc-ranlib-15.com"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/gcc-ranlib-15.exe"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/gcc-ranlib-15"
+      - "D:/Program Files/Git/cmd/gcc-ranlib-15.com"
+      - "D:/Program Files/Git/cmd/gcc-ranlib-15.exe"
+      - "D:/Program Files/Git/cmd/gcc-ranlib-15"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15"
+      - "D:/C++/mingw64/gcc-ranlib-15.com"
+      - "D:/C++/mingw64/gcc-ranlib-15.exe"
+      - "D:/C++/mingw64/gcc-ranlib-15"
+      - "C:/CMake/bin/gcc-ranlib-15.com"
+      - "C:/CMake/bin/gcc-ranlib-15.exe"
+      - "C:/CMake/bin/gcc-ranlib-15"
+      - "D:/Python/Python314/Scripts/gcc-ranlib-15.com"
+      - "D:/Python/Python314/Scripts/gcc-ranlib-15.exe"
+      - "D:/Python/Python314/Scripts/gcc-ranlib-15"
+      - "D:/Python/Python314/gcc-ranlib-15.com"
+      - "D:/Python/Python314/gcc-ranlib-15.exe"
+      - "D:/Python/Python314/gcc-ranlib-15"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.com"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.exe"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib-15.com"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib-15.exe"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib-15"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/gcc-ranlib-15.com"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/gcc-ranlib-15.exe"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/gcc-ranlib-15"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib15.com"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib15.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib15"
+      - "C:/msys64/usr/bin/gcc-ranlib15.com"
+      - "C:/msys64/usr/bin/gcc-ranlib15.exe"
+      - "C:/msys64/usr/bin/gcc-ranlib15"
+      - "C:/Windows/System32/gcc-ranlib15.com"
+      - "C:/Windows/System32/gcc-ranlib15.exe"
+      - "C:/Windows/System32/gcc-ranlib15"
+      - "C:/Windows/gcc-ranlib15.com"
+      - "C:/Windows/gcc-ranlib15.exe"
+      - "C:/Windows/gcc-ranlib15"
+      - "C:/Windows/System32/wbem/gcc-ranlib15.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib15.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/gcc-ranlib15.com"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/gcc-ranlib15.exe"
+      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/gcc-ranlib15"
+      - "D:/gcc-ranlib15.com"
+      - "D:/gcc-ranlib15.exe"
+      - "D:/gcc-ranlib15"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/gcc-ranlib15.com"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/gcc-ranlib15.exe"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/gcc-ranlib15"
+      - "D:/Program Files/Git/cmd/gcc-ranlib15.com"
+      - "D:/Program Files/Git/cmd/gcc-ranlib15.exe"
+      - "D:/Program Files/Git/cmd/gcc-ranlib15"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15"
+      - "D:/C++/mingw64/gcc-ranlib15.com"
+      - "D:/C++/mingw64/gcc-ranlib15.exe"
+      - "D:/C++/mingw64/gcc-ranlib15"
+      - "C:/CMake/bin/gcc-ranlib15.com"
+      - "C:/CMake/bin/gcc-ranlib15.exe"
+      - "C:/CMake/bin/gcc-ranlib15"
+      - "D:/Python/Python314/Scripts/gcc-ranlib15.com"
+      - "D:/Python/Python314/Scripts/gcc-ranlib15.exe"
+      - "D:/Python/Python314/Scripts/gcc-ranlib15"
+      - "D:/Python/Python314/gcc-ranlib15.com"
+      - "D:/Python/Python314/gcc-ranlib15.exe"
+      - "D:/Python/Python314/gcc-ranlib15"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.com"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.exe"
+      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib15.com"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib15.exe"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib15"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/gcc-ranlib15.com"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/gcc-ranlib15.exe"
+      - "D:/\u4ee3\u7801ai/Windsurf/bin/gcc-ranlib15"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib.com"
+    found: "C:/msys64/ucrt64/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "D:\\\u89e3\u538b\u8f6f\u4ef6\\Bandizip\\"
+        - "D:/"
+        - "rogram Files/Notepad++"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "D:\\C++\\mingw64"
+        - "C:/CMake/bin"
+        - "D:\\Python\\Python314\\Scripts\\"
+        - "D:/Python/Python314/"
+        - "C:\\Users\\\u521d\u89c1\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/Microsoft VS Code/bin"
+        - "D:\\C++\\mingw64"
+        - "D:/\u4ee3\u7801ai/Windsurf/bin"
   -
     kind: "find-v1"
     backtrace:
       - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
-      - "C:/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:580 (enable_language)"
-      - "C:/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:553 (__windows_compiler_msvc_enable_rc)"
-      - "C:/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)"
-      - "CMakeLists.txt"
+      - "C:/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "C:/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX.cmake:2 (__windows_compiler_gnu)"
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_RC_COMPILER"
     description: "RC compiler"
@@ -783,8 +1430,11 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "rc"
+      - "windres"
+      - "windres"
     candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -792,7 +1442,7 @@ events:
       - "C:/Windows/System32/OpenSSH/"
       - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/"
       - "D:/"
-      - "D:/\u4ee3\u7801\u9879\u76ee/CalcWarrior/build/rogram Files/Notepad++/"
+      - "D:/CodeBerew/CalcWarrior/build/rogram Files/Notepad++/"
       - "D:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "D:/C++/mingw64/"
@@ -802,7 +1452,9 @@ events:
       - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/"
       - "D:/Microsoft VS Code/bin/"
       - "D:/\u4ee3\u7801ai/Windsurf/bin/"
-      - "C:/Users/\u521d\u89c1/.windsurf/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/ucrt64/sbin/"
+      - "C:/msys64/ucrt64/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -812,277 +1464,326 @@ events:
       - "C:/CMake/bin/"
       - "C:/CMake/sbin/"
       - "C:/CMake/"
-      - "C:/Program Files (x86)/Project/bin/"
-      - "C:/Program Files (x86)/Project/sbin/"
-      - "C:/Program Files (x86)/Project/"
+      - "C:/Program Files (x86)/CalcWarrior/bin/"
+      - "C:/Program Files (x86)/CalcWarrior/sbin/"
+      - "C:/Program Files (x86)/CalcWarrior/"
     searched_directories:
-      - "C:/Windows/System32/rc.com"
-      - "C:/Windows/System32/rc.exe"
-      - "C:/Windows/System32/rc"
-      - "C:/Windows/rc.com"
-      - "C:/Windows/rc.exe"
-      - "C:/Windows/rc"
-      - "C:/Windows/System32/wbem/rc.com"
-      - "C:/Windows/System32/wbem/rc.exe"
-      - "C:/Windows/System32/wbem/rc"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
-      - "C:/Windows/System32/OpenSSH/rc.com"
-      - "C:/Windows/System32/OpenSSH/rc.exe"
-      - "C:/Windows/System32/OpenSSH/rc"
-      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/rc.com"
-      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/rc.exe"
-      - "D:/\u89e3\u538b\u8f6f\u4ef6/Bandizip/rc"
-      - "D:/rc.com"
-      - "D:/rc.exe"
-      - "D:/rc"
-      - "D:/\u4ee3\u7801\u9879\u76ee/CalcWarrior/build/rogram Files/Notepad++/rc.com"
-      - "D:/\u4ee3\u7801\u9879\u76ee/CalcWarrior/build/rogram Files/Notepad++/rc.exe"
-      - "D:/\u4ee3\u7801\u9879\u76ee/CalcWarrior/build/rogram Files/Notepad++/rc"
-      - "D:/Program Files/Git/cmd/rc.com"
-      - "D:/Program Files/Git/cmd/rc.exe"
-      - "D:/Program Files/Git/cmd/rc"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
-      - "D:/C++/mingw64/rc.com"
-      - "D:/C++/mingw64/rc.exe"
-      - "D:/C++/mingw64/rc"
-      - "C:/CMake/bin/rc.com"
-      - "C:/CMake/bin/rc.exe"
-      - "C:/CMake/bin/rc"
-      - "D:/Python/Python314/Scripts/rc.com"
-      - "D:/Python/Python314/Scripts/rc.exe"
-      - "D:/Python/Python314/Scripts/rc"
-      - "D:/Python/Python314/rc.com"
-      - "D:/Python/Python314/rc.exe"
-      - "D:/Python/Python314/rc"
-      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/rc.com"
-      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/rc.exe"
-      - "C:/Users/\u521d\u89c1/AppData/Local/Microsoft/WindowsApps/rc"
-      - "D:/Microsoft VS Code/bin/rc.com"
-      - "D:/Microsoft VS Code/bin/rc.exe"
-      - "D:/Microsoft VS Code/bin/rc"
-      - "D:/\u4ee3\u7801ai/Windsurf/bin/rc.com"
-      - "D:/\u4ee3\u7801ai/Windsurf/bin/rc.exe"
-      - "D:/\u4ee3\u7801ai/Windsurf/bin/rc"
-      - "C:/Users/\u521d\u89c1/.windsurf/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/rc.com"
-      - "C:/Users/\u521d\u89c1/.windsurf/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/rc.exe"
-      - "C:/Users/\u521d\u89c1/.windsurf/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/rc"
-      - "C:/Program Files/bin/rc.com"
-      - "C:/Program Files/bin/rc.exe"
-      - "C:/Program Files/bin/rc"
-      - "C:/Program Files/sbin/rc.com"
-      - "C:/Program Files/sbin/rc.exe"
-      - "C:/Program Files/sbin/rc"
-      - "C:/Program Files/rc.com"
-      - "C:/Program Files/rc.exe"
-      - "C:/Program Files/rc"
-      - "C:/Program Files (x86)/bin/rc.com"
-      - "C:/Program Files (x86)/bin/rc.exe"
-      - "C:/Program Files (x86)/bin/rc"
-      - "C:/Program Files (x86)/sbin/rc.com"
-      - "C:/Program Files (x86)/sbin/rc.exe"
-      - "C:/Program Files (x86)/sbin/rc"
-      - "C:/Program Files (x86)/rc.com"
-      - "C:/Program Files (x86)/rc.exe"
-      - "C:/Program Files (x86)/rc"
-      - "C:/CMake/bin/rc.com"
-      - "C:/CMake/bin/rc.exe"
-      - "C:/CMake/bin/rc"
-      - "C:/CMake/sbin/rc.com"
-      - "C:/CMake/sbin/rc.exe"
-      - "C:/CMake/sbin/rc"
-      - "C:/CMake/rc.com"
-      - "C:/CMake/rc.exe"
-      - "C:/CMake/rc"
-      - "C:/Program Files (x86)/Project/bin/rc.com"
-      - "C:/Program Files (x86)/Project/bin/rc.exe"
-      - "C:/Program Files (x86)/Project/bin/rc"
-      - "C:/Program Files (x86)/Project/sbin/rc.com"
-      - "C:/Program Files (x86)/Project/sbin/rc.exe"
-      - "C:/Program Files (x86)/Project/sbin/rc"
-      - "C:/Program Files (x86)/Project/rc.com"
-      - "C:/Program Files (x86)/Project/rc.exe"
-      - "C:/Program Files (x86)/Project/rc"
-    found: false
+      - "C:/msys64/ucrt64/bin/windres.com"
+    found: "C:/msys64/ucrt64/bin/windres.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\WINDOWS\\system32"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:/WINDOWS/System32/Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
         - "D:\\\u89e3\u538b\u8f6f\u4ef6\\Bandizip\\"
-        - "D:\\"
-        - "rogram Files\\Notepad++"
+        - "D:/"
+        - "rogram Files/Notepad++"
         - "D:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
         - "D:\\C++\\mingw64"
-        - "C:\\CMake\\bin"
+        - "C:/CMake/bin"
         - "D:\\Python\\Python314\\Scripts\\"
-        - "D:\\Python\\Python314\\"
+        - "D:/Python/Python314/"
         - "C:\\Users\\\u521d\u89c1\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "D:\\Microsoft VS Code\\bin"
+        - "D:/Microsoft VS Code/bin"
         - "D:\\C++\\mingw64"
-        - "D:\\\u4ee3\u7801ai\\Windsurf\\bin"
-        - "c:\\Users\\\u521d\u89c1\\.windsurf\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Project"
+        - "D:/\u4ee3\u7801ai/Windsurf/bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CalcWarrior"
       CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/msys64/ucrt64"
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/CMake"
-        - "C:/Program Files (x86)/Project"
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
-    checks:
-      - "Detecting C compiler ABI info"
-    directories:
-      source: "D:/\u4ee3\u7801\u9879\u76ee/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-3cmx35"
-      binary: "D:/\u4ee3\u7801\u9879\u76ee/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-3cmx35"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-    buildResult:
-      variable: "CMAKE_C_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: 'D:/代码项目/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-3cmx35'
-        
-        Run Build Command(s): "D:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_73dff.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
-        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 18.3.0-release-26070-10+3972042b7
-        鐢熸垚鍚姩鏃堕棿涓?2026/2/28 15:11:08銆?
-        
-        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\浠ｇ爜椤圭洰\\CalcWarrior\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3cmx35\\cmTC_73dff.vcxproj鈥?榛樿鐩爣)銆?
-        PrepareForBuild:
-          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-          姝ｅ湪鍒涘缓鐩綍鈥淒:\\浠ｇ爜椤圭洰\\CalcWarrior\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3cmx35\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_73dff.dir\\Debug\\cmTC_73dff.tlog\\鈥濄€?
-        InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_73dff.dir\\Debug\\cmTC_73dff.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_73dff.dir\\Debug\\cmTC_73dff.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
-        ClCompile:
-          D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_73dff.dir\\Debug\\\\" /Fd"cmTC_73dff.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
-          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.50.35724 鐗?
-          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_73dff.dir\\Debug\\\\" /Fd"cmTC_73dff.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
-          CMakeCCompilerABI.c
-        Link:
-          D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\浠ｇ爜椤圭洰\\CalcWarrior\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3cmx35\\Debug\\cmTC_73dff.exe" /INCREMENTAL /ILK:"cmTC_73dff.dir\\Debug\\cmTC_73dff.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/浠ｇ爜椤圭洰/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-3cmx35/Debug/cmTC_73dff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/浠ｇ爜椤圭洰/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-3cmx35/Debug/cmTC_73dff.lib" /MACHINE:X64  /machine:x64 cmTC_73dff.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_73dff.vcxproj -> D:\\浠ｇ爜椤圭洰\\CalcWarrior\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3cmx35\\Debug\\cmTC_73dff.exe
-        FinalizeBuildStatus:
-          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_73dff.dir\\Debug\\cmTC_73dff.tlog\\unsuccessfulbuild鈥濄€?
-          姝ｅ湪瀵光€渃mTC_73dff.dir\\Debug\\cmTC_73dff.tlog\\cmTC_73dff.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-        宸插畬鎴愮敓鎴愰」鐩€淒:\\浠ｇ爜椤圭洰\\CalcWarrior\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3cmx35\\cmTC_73dff.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
-        
-        宸叉垚鍔熺敓鎴愩€?
-            0 涓鍛?
-            0 涓敊璇?
-        
-        宸茬敤鏃堕棿 00:00:01.03
-        
-      exitCode: 0
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
-    message: |
-      Parsed C implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'C': D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: []
-        implicit fwks: []
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
-      - "C:/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
-    message: |
-      Running the C compiler's linker: "D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.50.35724.0
-      Copyright (C) Microsoft Corporation.  All rights reserved.
+        - "C:/Program Files (x86)/CalcWarrior"
   -
     kind: "try_compile-v1"
     backtrace:
       - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "C:/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/\u4ee3\u7801\u9879\u76ee/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-gj49bi"
-      binary: "D:/\u4ee3\u7801\u9879\u76ee/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-gj49bi"
+      source: "D:/CodeBerew/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-um2k7j"
+      binary: "D:/CodeBerew/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-um2k7j"
     cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_EXE_LINKER_FLAGS: ""
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/代码项目/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-gj49bi'
+        Change Dir: 'D:/CodeBerew/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-um2k7j'
         
-        Run Build Command(s): "D:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_29245.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
-        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 18.3.0-release-26070-10+3972042b7
-        鐢熸垚鍚姩鏃堕棿涓?2026/2/28 15:11:10銆?
+        Run Build Command(s): C:/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_d4a14/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d4a14.dir\\build.make CMakeFiles/cmTC_d4a14.dir/build
+        mingw32-make[1]: Entering directory 'D:/CodeBerew/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-um2k7j'
+        Building CXX object CMakeFiles/cmTC_d4a14.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_d4a14.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-15.2.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev8, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-libstdcxx-zoneinfo=yes --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (Rev8, Built by MSYS2 project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d4a14.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d4a14.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_d4a14.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\鍒濊\\AppData\\Local\\Temp\\cczdT5Ci.s
+        GNU C++17 (Rev8, Built by MSYS2 project) version 15.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\浠ｇ爜椤圭洰\\CalcWarrior\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gj49bi\\cmTC_29245.vcxproj鈥?榛樿鐩爣)銆?
-        PrepareForBuild:
-          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-          姝ｅ湪鍒涘缓鐩綍鈥淒:\\浠ｇ爜椤圭洰\\CalcWarrior\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gj49bi\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_29245.dir\\Debug\\cmTC_29245.tlog\\鈥濄€?
-        InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_29245.dir\\Debug\\cmTC_29245.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_29245.dir\\Debug\\cmTC_29245.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
-        ClCompile:
-          D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_29245.dir\\Debug\\\\" /Fd"cmTC_29245.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
-          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.50.35724 鐗?
-          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_29245.dir\\Debug\\\\" /Fd"cmTC_29245.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
-          CMakeCXXCompilerABI.cpp
-        Link:
-          D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\浠ｇ爜椤圭洰\\CalcWarrior\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gj49bi\\Debug\\cmTC_29245.exe" /INCREMENTAL /ILK:"cmTC_29245.dir\\Debug\\cmTC_29245.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/浠ｇ爜椤圭洰/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-gj49bi/Debug/cmTC_29245.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/浠ｇ爜椤圭洰/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-gj49bi/Debug/cmTC_29245.lib" /MACHINE:X64  /machine:x64 cmTC_29245.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_29245.vcxproj -> D:\\浠ｇ爜椤圭洰\\CalcWarrior\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gj49bi\\Debug\\cmTC_29245.exe
-        FinalizeBuildStatus:
-          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_29245.dir\\Debug\\cmTC_29245.tlog\\unsuccessfulbuild鈥濄€?
-          姝ｅ湪瀵光€渃mTC_29245.dir\\Debug\\cmTC_29245.tlog\\cmTC_29245.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-        宸插畬鎴愮敓鎴愰」鐩€淒:\\浠ｇ爜椤圭洰\\CalcWarrior\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gj49bi\\cmTC_29245.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
-        
-        宸叉垚鍔熺敓鎴愩€?
-            0 涓鍛?
-            0 涓敊璇?
-        
-        宸茬敤鏃堕棿 00:00:01.16
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0"
+        ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/x86_64-w64-mingw32"
+        ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/backward"
+        ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include"
+        ignoring nonexistent directory "D:/M/msys64/ucrt64/include"
+        ignoring nonexistent directory "/ucrt64/include"
+        ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"
+        ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "D:/M/msys64/ucrt64/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/x86_64-w64-mingw32
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/backward
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed
+        End of search list.
+        Compiler executable checksum: 3a1a95c83f0136a64748ec8c5a2a87f3
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d4a14.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d4a14.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_d4a14.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\鍒濊\\AppData\\Local\\Temp\\cczdT5Ci.s
+        GNU assembler version 2.45.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45.1
+        COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d4a14.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d4a14.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_d4a14.exe
+        C:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_d4a14.dir\\link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-15.2.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev8, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-libstdcxx-zoneinfo=yes --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (Rev8, Built by MSYS2 project) 
+        COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d4a14.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_d4a14.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\鍒濊\\AppData\\Local\\Temp\\cc9fqa1Y.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d4a14.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_d4a14.dir/objects.a --no-whole-archive --out-implib libcmTC_d4a14.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        collect2 version 15.2.0
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\初见\\AppData\\Local\\Temp\\cc9fqa1Y.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d4a14.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_d4a14.dir/objects.a --no-whole-archive --out-implib libcmTC_d4a14.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.45.1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d4a14.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_d4a14.'
+        C:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_d4a14.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_d4a14.dir/objects.a @CMakeFiles\\cmTC_d4a14.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_d4a14.dir/objects.a -Wl,--no-whole-archive -o cmTC_d4a14.exe -Wl,--out-implib,libcmTC_d4a14.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'D:/CodeBerew/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-um2k7j'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0]
+          add: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/x86_64-w64-mingw32]
+          add: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/backward]
+          add: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+          add: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include]
+          add: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        end of search list found
+        collapse include dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0] ==> [C:/msys64/ucrt64/include/c++/15.2.0]
+        collapse include dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/x86_64-w64-mingw32] ==> [C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32]
+        collapse include dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/backward] ==> [C:/msys64/ucrt64/include/c++/15.2.0/backward]
+        collapse include dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        collapse include dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include] ==> [C:/msys64/ucrt64/include]
+        collapse include dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        implicit include dirs: [C:/msys64/ucrt64/include/c++/15.2.0;C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32;C:/msys64/ucrt64/include/c++/15.2.0/backward;C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include;C:/msys64/ucrt64/include;C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
       - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "C:/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Parsed CXX implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'CXX': D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: []
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'D:/CodeBerew/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-um2k7j']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/CMake/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_d4a14/fast]
+        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d4a14.dir\\build.make CMakeFiles/cmTC_d4a14.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/CodeBerew/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-um2k7j']
+        ignore line: [Building CXX object CMakeFiles/cmTC_d4a14.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_d4a14.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-15.2.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev8, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-libstdcxx-zoneinfo=yes --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (Rev8  Built by MSYS2 project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d4a14.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d4a14.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_d4a14.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\鍒濊\\AppData\\Local\\Temp\\cczdT5Ci.s]
+        ignore line: [GNU C++17 (Rev8  Built by MSYS2 project) version 15.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0"]
+        ignore line: [ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/backward"]
+        ignore line: [ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include"]
+        ignore line: [ignoring nonexistent directory "D:/M/msys64/ucrt64/include"]
+        ignore line: [ignoring nonexistent directory "/ucrt64/include"]
+        ignore line: [ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "D:/M/msys64/ucrt64/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0]
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/x86_64-w64-mingw32]
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include/c++/15.2.0/backward]
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include]
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 3a1a95c83f0136a64748ec8c5a2a87f3]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d4a14.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d4a14.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_d4a14.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\鍒濊\\AppData\\Local\\Temp\\cczdT5Ci.s]
+        ignore line: [GNU assembler version 2.45.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45.1]
+        ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d4a14.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d4a14.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_d4a14.exe]
+        ignore line: [C:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_d4a14.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-15.2.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev8, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-libstdcxx-zoneinfo=yes --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (Rev8  Built by MSYS2 project) ]
+        ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d4a14.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_d4a14.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\鍒濊\\AppData\\Local\\Temp\\cc9fqa1Y.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d4a14.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_d4a14.dir/objects.a --no-whole-archive --out-implib libcmTC_d4a14.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\鍒濊\\AppData\\Local\\Temp\\cc9fqa1Y.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_d4a14.exe] ==> ignore
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o]
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_d4a14.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_d4a14.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o]
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [collect2 version 15.2.0]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\初见\\AppData\\Local\\Temp\\cc9fqa1Y.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d4a14.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_d4a14.dir/objects.a --no-whole-archive --out-implib libcmTC_d4a14.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        linker tool for 'CXX': C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o] ==> [C:/msys64/ucrt64/lib/crt2.o]
+        collapse obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
+        collapse obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o] ==> [C:/msys64/ucrt64/lib/default-manifest.o]
+        collapse obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc] ==> [C:/msys64/ucrt64/lib/gcc]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/msys64/ucrt64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib] ==> [C:/msys64/ucrt64/lib]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/msys64/ucrt64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> [C:/msys64/ucrt64/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;mingwex;kernel32]
+        implicit objs: [C:/msys64/ucrt64/lib/crt2.o;C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o;C:/msys64/ucrt64/lib/default-manifest.o;C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        implicit dirs: [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0;C:/msys64/ucrt64/lib/gcc;C:/msys64/ucrt64/x86_64-w64-mingw32/lib;C:/msys64/ucrt64/lib]
         implicit fwks: []
       
       
@@ -1092,9 +1793,8 @@ events:
       - "C:/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
       - "C:/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "C:/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     message: |
-      Running the CXX compiler's linker: "D:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.50.35724.0
-      Copyright (C) Microsoft Corporation.  All rights reserved.
+      Running the CXX compiler's linker: "C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.45.1
 ...
