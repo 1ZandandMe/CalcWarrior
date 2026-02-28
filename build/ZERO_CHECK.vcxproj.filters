@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\代码项目\CalcWarrior\build\CMakeFiles\954294f6e36f3792d2c05a7754c73fff\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AB08E37A-AEB3-3007-BD4A-C3083D92C320}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
