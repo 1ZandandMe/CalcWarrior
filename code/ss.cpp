@@ -3,6 +3,6 @@ using namespace std;
 
 int main(){
     int aaa = 1;
-    cout<< aaa ;
+    cout << aaa ;
     return 0;
 }
