@@ -110,7 +110,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=CalcWarrior
+CMAKE_PROJECT_NAME:STATIC=Project
 
 //Value Computed by CMake
 CMAKE_PROJECT_SPDX_LICENSE:STATIC=
@@ -194,6 +194,15 @@ CalcWarrior_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 CalcWarrior_SOURCE_DIR:STATIC=D:/代码项目/CalcWarrior
+
+//Value Computed by CMake
+Project_BINARY_DIR:STATIC=D:/代码项目/CalcWarrior/build
+
+//Value Computed by CMake
+Project_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Project_SOURCE_DIR:STATIC=D:/代码项目/CalcWarrior
 
 
 ########################
