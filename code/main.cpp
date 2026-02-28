@@ -2,6 +2,6 @@
 using namespace std;
 int main() {
     system("chcp 65001");
-    cout << "CALC_WARRIOR项目配置成功！" << endl;
+    cout << "真有意思" << endl;
     return 0;
 }
