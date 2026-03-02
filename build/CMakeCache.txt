@@ -26,8 +26,8 @@ CMAKE_BUILD_TYPE:STRING=Debug
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//CXX compiler
-CMAKE_CXX_COMPILER:STRING=C:/msys64/ucrt64/bin/g++.exe
+//No help, variable specified on the command line.
+CMAKE_CXX_COMPILER:UNINITIALIZED=C:/msys64/ucrt64/bin/g++.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -91,8 +91,8 @@ CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/CalcWarrior
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/msys64/ucrt64/bin/ld.exe
 
-//Path to a program.
-CMAKE_MAKE_PROGRAM:FILEPATH=C:/msys64/ucrt64/bin/mingw32-make.exe
+//No help, variable specified on the command line.
+CMAKE_MAKE_PROGRAM:UNINITIALIZED=C:/msys64/ucrt64/bin/mingw32-make.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -230,6 +230,12 @@ CalcWarrior_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 CalcWarrior_SOURCE_DIR:STATIC=D:/CodeBerew/CalcWarrior
 
+//No help, variable specified on the command line.
+Python_EXECUTABLE:UNINITIALIZED=D:/CodeBerew/PyLearn/.venv/Scripts/python.exe
+
+//No help, variable specified on the command line.
+pybind11_DIR:UNINITIALIZED=D:/CodeBerew/PyLearn/.venv/Lib/site-packages/pybind11/share/cmake/pybind11
+
 
 ########################
 # INTERNAL cache entries
@@ -306,8 +312,6 @@ CMAKE_HOME_DIRECTORY:INTERNAL=D:/CodeBerew/CalcWarrior
 CMAKE_LINKER-ADVANCED:INTERNAL=1
 //Name of CMakeLists files to read
 CMAKE_LIST_FILE_NAME:INTERNAL=CMakeLists.txt
-//ADVANCED property for variable: CMAKE_MAKE_PROGRAM
-CMAKE_MAKE_PROGRAM-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS
 CMAKE_MODULE_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_DEBUG

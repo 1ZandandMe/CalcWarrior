@@ -155,10 +155,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "C:/msys64/ucrt64/bin/g++.exe"
 		},
 		{
@@ -574,15 +574,11 @@
 			"properties" : 
 			[
 				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
 					"name" : "HELPSTRING",
-					"value" : "Path to a program."
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "UNINITIALIZED",
 			"value" : "C:/msys64/ucrt64/bin/mingw32-make.exe"
 		},
 		{
@@ -1224,6 +1220,30 @@
 			],
 			"type" : "STATIC",
 			"value" : "D:/CodeBerew/CalcWarrior"
+		},
+		{
+			"name" : "Python_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : "D:/CodeBerew/PyLearn/.venv/Scripts/python.exe"
+		},
+		{
+			"name" : "pybind11_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : "D:/CodeBerew/PyLearn/.venv/Lib/site-packages/pybind11/share/cmake/pybind11"
 		}
 	],
 	"kind" : "cache",

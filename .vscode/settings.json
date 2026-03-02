@@ -1,0 +1,9 @@
+{
+    "cmake.generator": "MinGW Makefiles",
+    "cmake.configureArgs": [
+        "-DCMAKE_CXX_COMPILER=C:/msys64/ucrt64/bin/g++.exe",
+        "-DCMAKE_MAKE_PROGRAM=C:/msys64/ucrt64/bin/mingw32-make.exe",
+        "-DPython_EXECUTABLE=D:/CodeBerew/PyLearn/.venv/Scripts/python.exe",
+        "-Dpybind11_DIR=D:/CodeBerew/PyLearn/.venv/Lib/site-packages/pybind11/share/cmake/pybind11"
+    ]
+}
