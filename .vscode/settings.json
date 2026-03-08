@@ -1,9 +1,13 @@
 {
     "cmake.generator": "MinGW Makefiles",
     "cmake.configureArgs": [
-        "-DCMAKE_CXX_COMPILER=C:/msys64/ucrt64/bin/g++.exe",
-        "-DCMAKE_MAKE_PROGRAM=C:/msys64/ucrt64/bin/mingw32-make.exe",
+        "-DCMAKE_CXX_COMPILER=D:/msys64/mingw64/bin/g++.exe",
+        "-DCMAKE_MAKE_PROGRAM=D:/msys64/mingw64/bin/mingw32-make.exe",
         "-DPython_EXECUTABLE=D:/CodeBerew/PyLearn/.venv/Scripts/python.exe",
         "-Dpybind11_DIR=D:/CodeBerew/PyLearn/.venv/Lib/site-packages/pybind11/share/cmake/pybind11"
-    ]
+    ],
+    "C_Cpp.default.compilerPath": "D:/msys64/mingw64/bin/g++.exe",
+    "terminal.integrated.env.windows": {
+        "PATH": "${env:PATH};D:/msys64/mingw64/bin;D:/msys64/usr/bin"
+    }
 }

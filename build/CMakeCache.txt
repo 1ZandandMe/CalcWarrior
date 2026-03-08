@@ -14,11 +14,14 @@
 # EXTERNAL cache entries
 ########################
 
-//Path to a program.
-CMAKE_ADDR2LINE:FILEPATH=C:/msys64/ucrt64/bin/addr2line.exe
+//Build Python extension module (pybind11)
+BUILD_PYTHON_MODULE:BOOL=ON
 
 //Path to a program.
-CMAKE_AR:FILEPATH=C:/msys64/ucrt64/bin/ar.exe
+CMAKE_ADDR2LINE:FILEPATH=D:/msys64/mingw64/bin/addr2line.exe
+
+//Path to a program.
+CMAKE_AR:FILEPATH=D:/msys64/mingw64/bin/ar.exe
 
 //No help, variable specified on the command line.
 CMAKE_BUILD_TYPE:STRING=Debug
@@ -27,15 +30,15 @@ CMAKE_BUILD_TYPE:STRING=Debug
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //No help, variable specified on the command line.
-CMAKE_CXX_COMPILER:UNINITIALIZED=C:/msys64/ucrt64/bin/g++.exe
+CMAKE_CXX_COMPILER:UNINITIALIZED=D:/msys64/mingw64/bin/g++.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_AR:FILEPATH=C:/msys64/ucrt64/bin/gcc-ar.exe
+CMAKE_CXX_COMPILER_AR:FILEPATH=D:/msys64/mingw64/bin/gcc-ar.exe
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_RANLIB:FILEPATH=C:/msys64/ucrt64/bin/gcc-ranlib.exe
+CMAKE_CXX_COMPILER_RANLIB:FILEPATH=D:/msys64/mingw64/bin/gcc-ranlib.exe
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -59,7 +62,7 @@ CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshe
 CMAKE_C_COMPILER:FILEPATH=C:/msys64/ucrt64/bin/gcc.exe
 
 //Path to a program.
-CMAKE_DLLTOOL:FILEPATH=C:/msys64/ucrt64/bin/dlltool.exe
+CMAKE_DLLTOOL:FILEPATH=D:/msys64/mingw64/bin/dlltool.exe
 
 //Flags used by the linker during all build types.
 CMAKE_EXE_LINKER_FLAGS:STRING=
@@ -82,17 +85,14 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 //Value Computed by CMake.
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=D:/CodeBerew/CalcWarrior/build/CMakeFiles/pkgRedirects
 
-//Convert GNU import libraries to MS format (requires Visual Studio)
-CMAKE_GNUtoMS:BOOL=OFF
-
 //Install path prefix, prepended onto install directories.
 CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/CalcWarrior
 
 //Path to a program.
-CMAKE_LINKER:FILEPATH=C:/msys64/ucrt64/bin/ld.exe
+CMAKE_LINKER:FILEPATH=D:/msys64/mingw64/bin/ld.exe
 
 //No help, variable specified on the command line.
-CMAKE_MAKE_PROGRAM:UNINITIALIZED=C:/msys64/ucrt64/bin/mingw32-make.exe
+CMAKE_MAKE_PROGRAM:UNINITIALIZED=D:/msys64/mingw64/bin/mingw32-make.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -115,13 +115,13 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_NM:FILEPATH=C:/msys64/ucrt64/bin/nm.exe
+CMAKE_NM:FILEPATH=D:/msys64/mingw64/bin/nm.exe
 
 //Path to a program.
-CMAKE_OBJCOPY:FILEPATH=C:/msys64/ucrt64/bin/objcopy.exe
+CMAKE_OBJCOPY:FILEPATH=D:/msys64/mingw64/bin/objcopy.exe
 
 //Path to a program.
-CMAKE_OBJDUMP:FILEPATH=C:/msys64/ucrt64/bin/objdump.exe
+CMAKE_OBJDUMP:FILEPATH=D:/msys64/mingw64/bin/objdump.exe
 
 //Value Computed by CMake
 CMAKE_PROJECT_COMPAT_VERSION:STATIC=
@@ -139,7 +139,7 @@ CMAKE_PROJECT_NAME:STATIC=CalcWarrior
 CMAKE_PROJECT_SPDX_LICENSE:STATIC=
 
 //Path to a program.
-CMAKE_RANLIB:FILEPATH=C:/msys64/ucrt64/bin/ranlib.exe
+CMAKE_RANLIB:FILEPATH=D:/msys64/mingw64/bin/ranlib.exe
 
 //RC compiler
 CMAKE_RC_COMPILER:FILEPATH=C:/msys64/ucrt64/bin/windres.exe
@@ -160,7 +160,7 @@ CMAKE_RC_FLAGS_RELEASE:STRING=
 CMAKE_RC_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_READELF:FILEPATH=C:/msys64/ucrt64/bin/readelf.exe
+CMAKE_READELF:FILEPATH=D:/msys64/mingw64/bin/readelf.exe
 
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
@@ -210,7 +210,7 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_STRIP:FILEPATH=C:/msys64/ucrt64/bin/strip.exe
+CMAKE_STRIP:FILEPATH=D:/msys64/mingw64/bin/strip.exe
 
 //Path to a program.
 CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
@@ -312,6 +312,8 @@ CMAKE_HOME_DIRECTORY:INTERNAL=D:/CodeBerew/CalcWarrior
 CMAKE_LINKER-ADVANCED:INTERNAL=1
 //Name of CMakeLists files to read
 CMAKE_LIST_FILE_NAME:INTERNAL=CMakeLists.txt
+//ADVANCED property for variable: CMAKE_MAKE_PROGRAM
+CMAKE_MAKE_PROGRAM-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS
 CMAKE_MODULE_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_DEBUG
@@ -381,4 +383,37 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_TAPI-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Python executable during the last CMake run
+PYBIND11_PYTHON_EXECUTABLE_LAST:INTERNAL=D:/CodeBerew/PyLearn/.venv/Scripts/python.exe
+//Python debug status
+PYTHON_IS_DEBUG:INTERNAL=0
+PYTHON_MODULE_DEBUG_POSTFIX:INTERNAL=
+PYTHON_MODULE_EXTENSION:INTERNAL=.cp314-win_amd64.pyd
+_PYBIND11_CROSSCOMPILING:INTERNAL=OFF
+_Python:INTERNAL=Python
+//Compiler reason failure
+_Python_Compiler_REASON_FAILURE:INTERNAL=
+_Python_DEVELOPMENT_MODULE_SIGNATURE:INTERNAL=14a760002da39ca7df480e4d442b0771
+//Development reason failure
+_Python_Development_REASON_FAILURE:INTERNAL=
+_Python_EXECUTABLE:INTERNAL=D:/CodeBerew/PyLearn/.venv/Scripts/python.exe
+//Path to a program.
+_Python_EXECUTABLE_DEBUG:INTERNAL=_Python_EXECUTABLE_DEBUG-NOTFOUND
+//Path to a file.
+_Python_INCLUDE_DIR:INTERNAL=D:/Python/Python314/Include
+//Python Properties
+_Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;14;3;64;<none>;cp314-win_amd64;;D:\Python\Python314\Lib;D:\CodeBerew\PyLearn\.venv\Lib;D:\CodeBerew\PyLearn\.venv\Lib\site-packages;D:\CodeBerew\PyLearn\.venv\Lib\site-packages
+_Python_INTERPRETER_SIGNATURE:INTERNAL=87443ee279986771426c041d9d41241e
+//Interpreter reason failure
+_Python_Interpreter_REASON_FAILURE:INTERNAL=
+//Path to a library.
+_Python_LIBRARY_DEBUG:INTERNAL=_Python_LIBRARY_DEBUG-NOTFOUND
+//Path to a library.
+_Python_LIBRARY_RELEASE:INTERNAL=D:/Python/Python314/libs/libpython314.a
+//NumPy reason failure
+_Python_NumPy_REASON_FAILURE:INTERNAL=
+//Path to a library.
+_Python_RUNTIME_LIBRARY_RELEASE:INTERNAL=D:/Python/Python314/python314.dll
+//Directories where pybind11 and possibly Python headers are located
+pybind11_INCLUDE_DIRS:INTERNAL=D:/CodeBerew/PyLearn/.venv/Lib/site-packages/pybind11/include;D:/Python/Python314/Include
 

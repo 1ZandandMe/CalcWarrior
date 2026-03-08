@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/calc_warrior.dir/code/main.cpp.obj"
   "CMakeFiles/calc_warrior.dir/code/main.cpp.obj.d"
-  "calc_warrior.exe"
-  "calc_warrior.exe.manifest"
-  "calc_warrior.pdb"
-  "libcalc_warrior.dll.a"
+  "bin/calc_warrior.exe"
+  "bin/calc_warrior.exe.manifest"
+  "bin/calc_warrior.pdb"
+  "lib/libcalc_warrior.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
