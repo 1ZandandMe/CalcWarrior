@@ -4,11 +4,5 @@
   "command": "D:\\msys64\\mingw64\\bin\\g++.exe   -g -std=c++17 -o CMakeFiles\\calc_warrior.dir\\code\\main.cpp.obj -c D:\\CodeBerew\\CalcWarrior\\code\\main.cpp",
   "file": "D:/CodeBerew/CalcWarrior/code/main.cpp",
   "output": "CMakeFiles/calc_warrior.dir/code/main.cpp.obj"
-},
-{
-  "directory": "D:/CodeBerew/CalcWarrior/build",
-  "command": "D:\\msys64\\mingw64\\bin\\g++.exe -DPy_NO_LINK_LIB -Dcalcwarrior_py_EXPORTS @CMakeFiles/calcwarrior_py.dir/includes_CXX.rsp -g -std=c++17 -fvisibility=hidden -o CMakeFiles\\calcwarrior_py.dir\\code\\calcwarrior_py.cpp.obj -c D:\\CodeBerew\\CalcWarrior\\code\\calcwarrior_py.cpp",
-  "file": "D:/CodeBerew/CalcWarrior/code/calcwarrior_py.cpp",
-  "output": "CMakeFiles/calcwarrior_py.dir/code/calcwarrior_py.cpp.obj"
 }
 ]

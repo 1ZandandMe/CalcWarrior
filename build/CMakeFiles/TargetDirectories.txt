@@ -1,4 +1,3 @@
 D:/CodeBerew/CalcWarrior/build/CMakeFiles/calc_warrior.dir
-D:/CodeBerew/CalcWarrior/build/CMakeFiles/calcwarrior_py.dir
 D:/CodeBerew/CalcWarrior/build/CMakeFiles/edit_cache.dir
 D:/CodeBerew/CalcWarrior/build/CMakeFiles/rebuild_cache.dir

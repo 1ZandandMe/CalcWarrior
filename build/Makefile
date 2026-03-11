@@ -128,43 +128,6 @@ calc_warrior/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_warrior.dir\build.make CMakeFiles/calc_warrior.dir/build
 .PHONY : calc_warrior/fast
 
-#=============================================================================
-# Target rules for targets named calcwarrior_py
-
-# Build rule for target.
-calcwarrior_py: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 calcwarrior_py
-.PHONY : calcwarrior_py
-
-# fast build rule for target.
-calcwarrior_py/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calcwarrior_py.dir\build.make CMakeFiles/calcwarrior_py.dir/build
-.PHONY : calcwarrior_py/fast
-
-code/calcwarrior_py.obj: code/calcwarrior_py.cpp.obj
-.PHONY : code/calcwarrior_py.obj
-
-# target to build an object file
-code/calcwarrior_py.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calcwarrior_py.dir\build.make CMakeFiles/calcwarrior_py.dir/code/calcwarrior_py.cpp.obj
-.PHONY : code/calcwarrior_py.cpp.obj
-
-code/calcwarrior_py.i: code/calcwarrior_py.cpp.i
-.PHONY : code/calcwarrior_py.i
-
-# target to preprocess a source file
-code/calcwarrior_py.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calcwarrior_py.dir\build.make CMakeFiles/calcwarrior_py.dir/code/calcwarrior_py.cpp.i
-.PHONY : code/calcwarrior_py.cpp.i
-
-code/calcwarrior_py.s: code/calcwarrior_py.cpp.s
-.PHONY : code/calcwarrior_py.s
-
-# target to generate assembly for a file
-code/calcwarrior_py.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calcwarrior_py.dir\build.make CMakeFiles/calcwarrior_py.dir/code/calcwarrior_py.cpp.s
-.PHONY : code/calcwarrior_py.cpp.s
-
 code/main.obj: code/main.cpp.obj
 .PHONY : code/main.obj
 
@@ -198,10 +161,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... calc_warrior
-	@echo ... calcwarrior_py
-	@echo ... code/calcwarrior_py.obj
-	@echo ... code/calcwarrior_py.i
-	@echo ... code/calcwarrior_py.s
 	@echo ... code/main.obj
 	@echo ... code/main.i
 	@echo ... code/main.s

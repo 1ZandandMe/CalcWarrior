@@ -1,3 +1,0 @@
-C:\CMake\bin\cmake.exe -E rm -f CMakeFiles\calcwarrior_py.dir/objects.a
-D:\msys64\mingw64\bin\ar.exe qc CMakeFiles\calcwarrior_py.dir/objects.a @CMakeFiles\calcwarrior_py.dir\objects1.rsp
-D:\msys64\mingw64\bin\g++.exe -g -shared -o python\calcwarrior_py.cp314-win_amd64.pyd -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\calcwarrior_py.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\calcwarrior_py.dir\linkLibs.rsp

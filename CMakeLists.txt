@@ -17,7 +17,7 @@ add_executable(calc_warrior code/main.cpp)   # 使用新建的 app.cpp
 
 
 # ========== Python 扩展模块（可选，不影响可执行程序） ==========
-option(BUILD_PYTHON_MODULE "Build Python extension module (pybind11)" ON)
+option(BUILD_PYTHON_MODULE "Build Python extension module (pybind11)" OFF)
 
 if(BUILD_PYTHON_MODULE)
     find_package(Python COMPONENTS Interpreter Development.Module QUIET)

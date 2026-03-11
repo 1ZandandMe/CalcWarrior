@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "C:/CMake/share/cmake-4.2/Modules/CMakeCXXInformation.cmake"
-  "C:/CMake/share/cmake-4.2/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
   "C:/CMake/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake"
   "C:/CMake/share/cmake-4.2/Modules/CMakeGenericSystem.cmake"
   "C:/CMake/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake"
@@ -16,20 +15,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/CMake/share/cmake-4.2/Modules/CMakeRCInformation.cmake"
   "C:/CMake/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake"
   "C:/CMake/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake"
-  "C:/CMake/share/cmake-4.2/Modules/CheckCXXCompilerFlag.cmake"
-  "C:/CMake/share/cmake-4.2/Modules/CheckCXXSourceCompiles.cmake"
   "C:/CMake/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "C:/CMake/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake"
   "C:/CMake/share/cmake-4.2/Modules/Compiler/GNU.cmake"
-  "C:/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake"
-  "C:/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake"
-  "C:/CMake/share/cmake-4.2/Modules/FindPython.cmake"
-  "C:/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake"
   "C:/CMake/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake"
   "C:/CMake/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake"
-  "C:/CMake/share/cmake-4.2/Modules/Internal/CheckCompilerFlag.cmake"
-  "C:/CMake/share/cmake-4.2/Modules/Internal/CheckFlagCommonConfig.cmake"
-  "C:/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake"
   "C:/CMake/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake"
   "C:/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-CXX.cmake"
   "C:/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-CXX.cmake"
@@ -44,11 +34,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.2.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.2.3/CMakeRCCompiler.cmake"
   "CMakeFiles/4.2.3/CMakeSystem.cmake"
-  "D:/CodeBerew/PyLearn/.venv/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake"
-  "D:/CodeBerew/PyLearn/.venv/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake"
-  "D:/CodeBerew/PyLearn/.venv/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11ConfigVersion.cmake"
-  "D:/CodeBerew/PyLearn/.venv/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11NewTools.cmake"
-  "D:/CodeBerew/PyLearn/.venv/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Targets.cmake"
   )
 
 # The corresponding makefile is:
@@ -65,5 +50,4 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/calc_warrior.dir/DependInfo.cmake"
-  "CMakeFiles/calcwarrior_py.dir/DependInfo.cmake"
   )
