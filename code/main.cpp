@@ -42,9 +42,9 @@ int main() {
     for (int i = 0; i < 100000000; ++i) {
         total += i;
     }
+    
     auto end = std::chrono::high_resolution_clock::now();
     std::chrono::duration<double> elapsed = end - start;
     std::cout << "C++ 耗时: " << elapsed.count() << "秒" << std::endl;
     return 0;
 }
-
