@@ -1,8 +1,0 @@
-[
-{
-  "directory": "D:/CodeBerew/CalcWarrior/build",
-  "command": "D:\\msys64\\mingw64\\bin\\g++.exe   -g -std=c++17 -o CMakeFiles\\calc_warrior.dir\\code\\main.cpp.obj -c D:\\CodeBerew\\CalcWarrior\\code\\main.cpp",
-  "file": "D:/CodeBerew/CalcWarrior/code/main.cpp",
-  "output": "CMakeFiles/calc_warrior.dir/code/main.cpp.obj"
-}
-]

@@ -20,7 +20,7 @@
 //         num = multiplyByTwo(num);
 //     }
 //     cout << "2^1000 = " << num << endl;
-//     cout << "位数：" << num.length() << endl;
+//     cout << "位数�?" << num.length() << endl;
 //     return 0;
 // }
 // std::vector<int> vec(10000000);
@@ -30,11 +30,10 @@
 // int fib(int n) {
 //     return n < 2 ? n : fib(n-1) + fib(n-2);
 // }
-// // 编译优化后快很多
-
+// // 编译优化后快很�??
 #include <iostream>
 #include <chrono>
-
+using namespace std;
 int main() {
     system("chcp 65001");
     auto start = std::chrono::high_resolution_clock::now();
@@ -45,6 +44,8 @@ int main() {
     
     auto end = std::chrono::high_resolution_clock::now();
     std::chrono::duration<double> elapsed = end - start;
-    std::cout << "C++ 耗时: " << elapsed.count() << "秒" << std::endl;
+    std::cout << "C++ 耗时: " << elapsed.count() << "秒?" << std::endl;
+    std::cout << "总和: " << total << std::endl;
     return 0;
+
 }

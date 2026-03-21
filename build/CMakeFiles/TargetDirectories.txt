@@ -1,3 +1,3 @@
 D:/CodeBerew/CalcWarrior/build/CMakeFiles/calc_warrior.dir
-D:/CodeBerew/CalcWarrior/build/CMakeFiles/edit_cache.dir
-D:/CodeBerew/CalcWarrior/build/CMakeFiles/rebuild_cache.dir
+D:/CodeBerew/CalcWarrior/build/CMakeFiles/ALL_BUILD.dir
+D:/CodeBerew/CalcWarrior/build/CMakeFiles/ZERO_CHECK.dir
