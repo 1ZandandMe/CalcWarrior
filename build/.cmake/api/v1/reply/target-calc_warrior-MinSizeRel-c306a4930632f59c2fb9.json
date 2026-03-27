@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "bin/Debug/calc_warrior.exe"
+			"path" : "bin/MinSizeRel/calc_warrior.exe"
 		},
 		{
-			"path" : "bin/Debug/calc_warrior.pdb"
+			"path" : "bin/MinSizeRel/calc_warrior.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 45,
+				"line" : 41,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 35,
+				"line" : 32,
 				"parent" : 0
 			}
 		]
@@ -50,15 +50,27 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd"
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -std:c++17 -MD"
 				},
 				{
 					"backtrace" : 2,
-					"fragment" : "/O2"
+					"fragment" : "\"\"$\"<0:/Od\""
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "\"/W4>\""
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "\"\"$\"<0:/O2\""
 				},
 				{
 					"backtrace" : 2,
 					"fragment" : "/W4"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "\"/DNDEBUG>\""
 				}
 			],
 			"language" : "CXX",
@@ -88,11 +100,11 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -MD",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /debug /INCREMENTAL",
+				"fragment" : "/machine:x64 /INCREMENTAL:NO",
 				"role" : "flags"
 			},
 			{

@@ -28,12 +28,8 @@ if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
         add_compile_options(-O3 -DNDEBUG -Wall -Wextra)
     endif()
 elseif(MSVC)
-    # MSVC 编译器
-    if(CMAKE_BUILD_TYPE STREQUAL "Debug")
-        add_compile_options(/Od /W4)
-    else()
-        add_compile_options(/O2 /W4)
-    endif()
+    # VSCode + MSVC 专用，自动区分Debug/Release，无冲突
+    add_compile_options($<$<CONFIG:Debug>:/Od /W4> $<$<CONFIG:Release>:/O2 /W4 /DNDEBUG>)
 endif()
 
 message(STATUS "Build Type: ${CMAKE_BUILD_TYPE}")
