@@ -1,0 +1,10 @@
+^D:\CODEBEREW\CALCWARRIOR\BUILD\CMAKEFILES\0E6790375B7C04933DBA46D1C27D02D2\GENERATE.STAMP.RULE
+setlocal
+C:\CMake\bin\cmake.exe -SD:/CodeBerew/CalcWarrior -BD:/CodeBerew/CalcWarrior/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/CodeBerew/CalcWarrior/build/CalcWarrior.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
