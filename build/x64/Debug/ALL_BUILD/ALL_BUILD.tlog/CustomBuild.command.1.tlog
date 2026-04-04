@@ -1,0 +1,10 @@
+^D:\CODEBEREW\CALCWARRIOR\CMAKELISTS.TXT
+setlocal
+C:\CMake\bin\cmake.exe -SD:/CodeBerew/CalcWarrior -BD:/CodeBerew/CalcWarrior/build --check-stamp-file D:/CodeBerew/CalcWarrior/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

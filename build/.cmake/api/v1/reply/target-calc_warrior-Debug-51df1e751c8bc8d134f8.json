@@ -14,7 +14,7 @@
 		"commands" : 
 		[
 			"add_executable",
-			"add_compile_options"
+			"target_compile_options"
 		],
 		"files" : 
 		[
@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 41,
+				"line" : 42,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 32,
+				"line" : 52,
 				"parent" : 0
 			}
 		]
@@ -54,23 +54,11 @@
 				},
 				{
 					"backtrace" : 2,
-					"fragment" : "\"\"$\"<1:/Od\""
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "\"/W4>\""
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "\"\"$\"<0:/O2\""
+					"fragment" : "/Od"
 				},
 				{
 					"backtrace" : 2,
 					"fragment" : "/W4"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "\"/DNDEBUG>\""
 				}
 			],
 			"language" : "CXX",

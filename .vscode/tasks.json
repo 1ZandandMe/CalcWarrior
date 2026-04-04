@@ -23,6 +23,20 @@
             },
             "detail": "调试器生成的任务。"
         }
+        ,
+        {
+            "label": "CMake: Build CalcWarrior",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "${workspaceFolder}/build",
+                "--config",
+                "Debug"
+            ],
+            "problemMatcher": [],
+            "group": "build"
+        }
     ],
     "version": "2.0.0"
 }

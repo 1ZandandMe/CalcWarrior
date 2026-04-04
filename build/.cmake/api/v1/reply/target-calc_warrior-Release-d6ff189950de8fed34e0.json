@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "bin/MinSizeRel/calc_warrior.exe"
+			"path" : "bin/Release/calc_warrior.exe"
 		},
 		{
-			"path" : "bin/MinSizeRel/calc_warrior.pdb"
+			"path" : "bin/Release/calc_warrior.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -14,7 +14,7 @@
 		"commands" : 
 		[
 			"add_executable",
-			"add_compile_options"
+			"target_compile_options"
 		],
 		"files" : 
 		[
@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 41,
+				"line" : 42,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 32,
+				"line" : 52,
 				"parent" : 0
 			}
 		]
@@ -50,19 +50,11 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -std:c++17 -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++17 -MD"
 				},
 				{
 					"backtrace" : 2,
-					"fragment" : "\"\"$\"<0:/Od\""
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "\"/W4>\""
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "\"\"$\"<0:/O2\""
+					"fragment" : "/O2"
 				},
 				{
 					"backtrace" : 2,
@@ -70,7 +62,7 @@
 				},
 				{
 					"backtrace" : 2,
-					"fragment" : "\"/DNDEBUG>\""
+					"fragment" : "/DNDEBUG"
 				}
 			],
 			"language" : "CXX",
@@ -100,7 +92,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -MD",
+				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -MD",
 				"role" : "flags"
 			},
 			{

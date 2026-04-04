@@ -29,7 +29,8 @@ if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
     endif()
 elseif(MSVC)
     # VSCode + MSVC 专用，自动区分Debug/Release，无冲突
-    add_compile_options($<$<CONFIG:Debug>:/Od /W4> $<$<CONFIG:Release>:/O2 /W4 /DNDEBUG>)
+    # 使用 target_compile_options 为目标添加编译选项，避免把生成器表达式传给 cl
+    #（在文件级别的 add_compile_options 中使用生成器表达式会导致未展开的符号被传递给 cl）
 endif()
 
 message(STATUS "Build Type: ${CMAKE_BUILD_TYPE}")
@@ -46,6 +47,16 @@ set_target_properties(calc_warrior PROPERTIES
     SOVERSION 1
 )
 
+# 为 MSVC 设置按配置的编译选项
+if(MSVC)
+    target_compile_options(calc_warrior PRIVATE
+        $<$<CONFIG:Debug>:/Od>
+        $<$<CONFIG:Debug>:/W4>
+        $<$<CONFIG:Release>:/O2>
+        $<$<CONFIG:Release>:/W4>
+        $<$<CONFIG:Release>:/DNDEBUG>
+    )
+endif()
 # 添加编译优化标志
 if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
     target_compile_options(calc_warrior PRIVATE
