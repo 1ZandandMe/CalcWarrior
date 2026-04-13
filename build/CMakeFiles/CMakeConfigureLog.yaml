@@ -64,6 +64,21 @@ events:
         - "C:\\CMake\\bin"
         - "D:\\nodejs\\"
         - "D:\\msys64\\ucrt64\\bin"
+        - "D:\\VMware\\bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\\ufffd\u9f73\ufffd\ufffd\ufffd\u9f56Bandizip\\"
+        - "D:\\"
+        - "rogram Files\\Notepad++"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\C++\\mingw64"
+        - "C:\\CMake\\bin"
+        - "D:\\nodejs\\"
+        - "D:\\msys64\\ucrt64\\bin"
         - "D:\\Python\\Python314\\Scripts\\"
         - "D:\\Python\\Python314\\"
         - "C:\\Users\\\ufffd\ufffd\ufffd\u9f56AppData\\Local\\Microsoft\\WindowsApps"
@@ -72,6 +87,8 @@ events:
         - "D:\\\ufffd\ufffd\ufffd\u9f5bi\\Windsurf\\bin"
         - "C:\\Users\\\ufffd\ufffd\ufffd\u9f56AppData\\Local\\Python\\bin"
         - "C:\\Users\\\ufffd\ufffd\ufffd\u9f56AppData\\Roaming\\npm"
+        - "D:\\xiaolongxia\\.openclaw\\workspace\\skills\\clawsec\\bin"
+        - "d:\\masm32\\bin"
         - "D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
         - "D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
@@ -101,7 +118,7 @@ events:
       The output was:
       0
       閫傜敤浜?.NET Framework MSBuild 鐗堟湰 18.4.0+6e61e96ac
-      鐢熸垚鍚姩鏃堕棿涓?2026/3/27 20:08:39銆?
+      鐢熸垚鍚姩鏃堕棿涓?2026/4/11 16:44:47銆?
       
       鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\CodeBerew\\CalcWarrior\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
       PrepareForBuild:
@@ -130,7 +147,7 @@ events:
           0 涓鍛?
           0 涓敊璇?
       
-      宸茬敤鏃堕棿 00:00:01.51
+      宸茬敤鏃堕棿 00:00:01.95
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -198,6 +215,8 @@ events:
       - "D:/\ufffd\ufffd\ufffd\u9f5bi/Windsurf/bin/"
       - "C:/Users/\ufffd\ufffd\ufffd\u9f56AppData/Local/Python/bin/"
       - "C:/Users/\ufffd\ufffd\ufffd\u9f56AppData/Roaming/npm/"
+      - "D:/xiaolongxia/.openclaw/workspace/skills/clawsec/bin/"
+      - "D:/masm32/bin/"
       - "D:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "D:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
       - "D:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
@@ -236,6 +255,21 @@ events:
         - "C:\\CMake\\bin"
         - "D:\\nodejs\\"
         - "D:\\msys64\\ucrt64\\bin"
+        - "D:\\VMware\\bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\\ufffd\u9f73\ufffd\ufffd\ufffd\u9f56Bandizip\\"
+        - "D:\\"
+        - "rogram Files\\Notepad++"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\C++\\mingw64"
+        - "C:\\CMake\\bin"
+        - "D:\\nodejs\\"
+        - "D:\\msys64\\ucrt64\\bin"
         - "D:\\Python\\Python314\\Scripts\\"
         - "D:\\Python\\Python314\\"
         - "C:\\Users\\\ufffd\ufffd\ufffd\u9f56AppData\\Local\\Microsoft\\WindowsApps"
@@ -244,6 +278,8 @@ events:
         - "D:\\\ufffd\ufffd\ufffd\u9f5bi\\Windsurf\\bin"
         - "C:\\Users\\\ufffd\ufffd\ufffd\u9f56AppData\\Local\\Python\\bin"
         - "C:\\Users\\\ufffd\ufffd\ufffd\u9f56AppData\\Roaming\\npm"
+        - "D:\\xiaolongxia\\.openclaw\\workspace\\skills\\clawsec\\bin"
+        - "d:\\masm32\\bin"
         - "D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
         - "D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
@@ -306,6 +342,8 @@ events:
       - "D:/\ufffd\ufffd\ufffd\u9f5bi/Windsurf/bin/"
       - "C:/Users/\ufffd\ufffd\ufffd\u9f56AppData/Local/Python/bin/"
       - "C:/Users/\ufffd\ufffd\ufffd\u9f56AppData/Roaming/npm/"
+      - "D:/xiaolongxia/.openclaw/workspace/skills/clawsec/bin/"
+      - "D:/masm32/bin/"
       - "D:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "D:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
       - "D:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
@@ -419,6 +457,12 @@ events:
       - "C:/Users/\ufffd\ufffd\ufffd\u9f56AppData/Roaming/npm/lld-link.com"
       - "C:/Users/\ufffd\ufffd\ufffd\u9f56AppData/Roaming/npm/lld-link.exe"
       - "C:/Users/\ufffd\ufffd\ufffd\u9f56AppData/Roaming/npm/lld-link"
+      - "D:/xiaolongxia/.openclaw/workspace/skills/clawsec/bin/lld-link.com"
+      - "D:/xiaolongxia/.openclaw/workspace/skills/clawsec/bin/lld-link.exe"
+      - "D:/xiaolongxia/.openclaw/workspace/skills/clawsec/bin/lld-link"
+      - "D:/masm32/bin/lld-link.com"
+      - "D:/masm32/bin/lld-link.exe"
+      - "D:/masm32/bin/lld-link"
       - "D:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
       - "D:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
       - "D:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
@@ -463,6 +507,21 @@ events:
         - "C:\\CMake\\bin"
         - "D:\\nodejs\\"
         - "D:\\msys64\\ucrt64\\bin"
+        - "D:\\VMware\\bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\\ufffd\u9f73\ufffd\ufffd\ufffd\u9f56Bandizip\\"
+        - "D:\\"
+        - "rogram Files\\Notepad++"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\C++\\mingw64"
+        - "C:\\CMake\\bin"
+        - "D:\\nodejs\\"
+        - "D:\\msys64\\ucrt64\\bin"
         - "D:\\Python\\Python314\\Scripts\\"
         - "D:\\Python\\Python314\\"
         - "C:\\Users\\\ufffd\ufffd\ufffd\u9f56AppData\\Local\\Microsoft\\WindowsApps"
@@ -471,6 +530,8 @@ events:
         - "D:\\\ufffd\ufffd\ufffd\u9f5bi\\Windsurf\\bin"
         - "C:\\Users\\\ufffd\ufffd\ufffd\u9f56AppData\\Local\\Python\\bin"
         - "C:\\Users\\\ufffd\ufffd\ufffd\u9f56AppData\\Roaming\\npm"
+        - "D:\\xiaolongxia\\.openclaw\\workspace\\skills\\clawsec\\bin"
+        - "d:\\masm32\\bin"
         - "D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
         - "D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
@@ -531,6 +592,8 @@ events:
       - "D:/\ufffd\ufffd\ufffd\u9f5bi/Windsurf/bin/"
       - "C:/Users/\ufffd\ufffd\ufffd\u9f56AppData/Local/Python/bin/"
       - "C:/Users/\ufffd\ufffd\ufffd\u9f56AppData/Roaming/npm/"
+      - "D:/xiaolongxia/.openclaw/workspace/skills/clawsec/bin/"
+      - "D:/masm32/bin/"
       - "D:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "D:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
       - "D:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
@@ -569,6 +632,21 @@ events:
         - "C:\\CMake\\bin"
         - "D:\\nodejs\\"
         - "D:\\msys64\\ucrt64\\bin"
+        - "D:\\VMware\\bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\\ufffd\u9f73\ufffd\ufffd\ufffd\u9f56Bandizip\\"
+        - "D:\\"
+        - "rogram Files\\Notepad++"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\C++\\mingw64"
+        - "C:\\CMake\\bin"
+        - "D:\\nodejs\\"
+        - "D:\\msys64\\ucrt64\\bin"
         - "D:\\Python\\Python314\\Scripts\\"
         - "D:\\Python\\Python314\\"
         - "C:\\Users\\\ufffd\ufffd\ufffd\u9f56AppData\\Local\\Microsoft\\WindowsApps"
@@ -577,6 +655,8 @@ events:
         - "D:\\\ufffd\ufffd\ufffd\u9f5bi\\Windsurf\\bin"
         - "C:\\Users\\\ufffd\ufffd\ufffd\u9f56AppData\\Local\\Python\\bin"
         - "C:\\Users\\\ufffd\ufffd\ufffd\u9f56AppData\\Roaming\\npm"
+        - "D:\\xiaolongxia\\.openclaw\\workspace\\skills\\clawsec\\bin"
+        - "d:\\masm32\\bin"
         - "D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
         - "D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
@@ -637,6 +717,8 @@ events:
       - "D:/\ufffd\ufffd\ufffd\u9f5bi/Windsurf/bin/"
       - "C:/Users/\ufffd\ufffd\ufffd\u9f56AppData/Local/Python/bin/"
       - "C:/Users/\ufffd\ufffd\ufffd\u9f56AppData/Roaming/npm/"
+      - "D:/xiaolongxia/.openclaw/workspace/skills/clawsec/bin/"
+      - "D:/masm32/bin/"
       - "D:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "D:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
       - "D:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
@@ -696,6 +778,21 @@ events:
         - "C:\\CMake\\bin"
         - "D:\\nodejs\\"
         - "D:\\msys64\\ucrt64\\bin"
+        - "D:\\VMware\\bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\\ufffd\u9f73\ufffd\ufffd\ufffd\u9f56Bandizip\\"
+        - "D:\\"
+        - "rogram Files\\Notepad++"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\C++\\mingw64"
+        - "C:\\CMake\\bin"
+        - "D:\\nodejs\\"
+        - "D:\\msys64\\ucrt64\\bin"
         - "D:\\Python\\Python314\\Scripts\\"
         - "D:\\Python\\Python314\\"
         - "C:\\Users\\\ufffd\ufffd\ufffd\u9f56AppData\\Local\\Microsoft\\WindowsApps"
@@ -704,6 +801,8 @@ events:
         - "D:\\\ufffd\ufffd\ufffd\u9f5bi\\Windsurf\\bin"
         - "C:\\Users\\\ufffd\ufffd\ufffd\u9f56AppData\\Local\\Python\\bin"
         - "C:\\Users\\\ufffd\ufffd\ufffd\u9f56AppData\\Roaming\\npm"
+        - "D:\\xiaolongxia\\.openclaw\\workspace\\skills\\clawsec\\bin"
+        - "d:\\masm32\\bin"
         - "D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
         - "D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
@@ -764,6 +863,8 @@ events:
       - "D:/\ufffd\ufffd\ufffd\u9f5bi/Windsurf/bin/"
       - "C:/Users/\ufffd\ufffd\ufffd\u9f56AppData/Local/Python/bin/"
       - "C:/Users/\ufffd\ufffd\ufffd\u9f56AppData/Roaming/npm/"
+      - "D:/xiaolongxia/.openclaw/workspace/skills/clawsec/bin/"
+      - "D:/masm32/bin/"
       - "D:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "D:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
       - "D:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
@@ -802,6 +903,21 @@ events:
         - "C:\\CMake\\bin"
         - "D:\\nodejs\\"
         - "D:\\msys64\\ucrt64\\bin"
+        - "D:\\VMware\\bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\\ufffd\u9f73\ufffd\ufffd\ufffd\u9f56Bandizip\\"
+        - "D:\\"
+        - "rogram Files\\Notepad++"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\C++\\mingw64"
+        - "C:\\CMake\\bin"
+        - "D:\\nodejs\\"
+        - "D:\\msys64\\ucrt64\\bin"
         - "D:\\Python\\Python314\\Scripts\\"
         - "D:\\Python\\Python314\\"
         - "C:\\Users\\\ufffd\ufffd\ufffd\u9f56AppData\\Local\\Microsoft\\WindowsApps"
@@ -810,6 +926,8 @@ events:
         - "D:\\\ufffd\ufffd\ufffd\u9f5bi\\Windsurf\\bin"
         - "C:\\Users\\\ufffd\ufffd\ufffd\u9f56AppData\\Local\\Python\\bin"
         - "C:\\Users\\\ufffd\ufffd\ufffd\u9f56AppData\\Roaming\\npm"
+        - "D:\\xiaolongxia\\.openclaw\\workspace\\skills\\clawsec\\bin"
+        - "d:\\masm32\\bin"
         - "D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
         - "D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
@@ -873,6 +991,8 @@ events:
       - "D:/\ufffd\ufffd\ufffd\u9f5bi/Windsurf/bin/"
       - "C:/Users/\ufffd\ufffd\ufffd\u9f56AppData/Local/Python/bin/"
       - "C:/Users/\ufffd\ufffd\ufffd\u9f56AppData/Roaming/npm/"
+      - "D:/xiaolongxia/.openclaw/workspace/skills/clawsec/bin/"
+      - "D:/masm32/bin/"
       - "D:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "D:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
       - "D:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
@@ -944,6 +1064,21 @@ events:
         - "C:\\CMake\\bin"
         - "D:\\nodejs\\"
         - "D:\\msys64\\ucrt64\\bin"
+        - "D:\\VMware\\bin\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\\ufffd\u9f73\ufffd\ufffd\ufffd\u9f56Bandizip\\"
+        - "D:\\"
+        - "rogram Files\\Notepad++"
+        - "D:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\C++\\mingw64"
+        - "C:\\CMake\\bin"
+        - "D:\\nodejs\\"
+        - "D:\\msys64\\ucrt64\\bin"
         - "D:\\Python\\Python314\\Scripts\\"
         - "D:\\Python\\Python314\\"
         - "C:\\Users\\\ufffd\ufffd\ufffd\u9f56AppData\\Local\\Microsoft\\WindowsApps"
@@ -952,6 +1087,8 @@ events:
         - "D:\\\ufffd\ufffd\ufffd\u9f5bi\\Windsurf\\bin"
         - "C:\\Users\\\ufffd\ufffd\ufffd\u9f56AppData\\Local\\Python\\bin"
         - "C:\\Users\\\ufffd\ufffd\ufffd\u9f56AppData\\Roaming\\npm"
+        - "D:\\xiaolongxia\\.openclaw\\workspace\\skills\\clawsec\\bin"
+        - "d:\\masm32\\bin"
         - "D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
         - "D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
@@ -971,8 +1108,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/CodeBerew/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-w2d5yt"
-      binary: "D:/CodeBerew/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-w2d5yt"
+      source: "D:/CodeBerew/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-4egffv"
+      binary: "D:/CodeBerew/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-4egffv"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -982,39 +1119,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/CodeBerew/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-w2d5yt'
+        Change Dir: 'D:/CodeBerew/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-4egffv'
         
-        Run Build Command(s): "D:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1ad1c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "D:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_33c5a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 18.4.0+6e61e96ac
-        鐢熸垚鍚姩鏃堕棿涓?2026/3/27 20:08:41銆?
+        鐢熸垚鍚姩鏃堕棿涓?2026/4/11 16:44:50銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\CodeBerew\\CalcWarrior\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w2d5yt\\cmTC_1ad1c.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\CodeBerew\\CalcWarrior\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4egffv\\cmTC_33c5a.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
           宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-          姝ｅ湪鍒涘缓鐩綍鈥淒:\\CodeBerew\\CalcWarrior\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w2d5yt\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_1ad1c.dir\\Debug\\cmTC_1ad1c.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\CodeBerew\\CalcWarrior\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4egffv\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_33c5a.dir\\Debug\\cmTC_33c5a.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_1ad1c.dir\\Debug\\cmTC_1ad1c.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_1ad1c.dir\\Debug\\cmTC_1ad1c.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_33c5a.dir\\Debug\\cmTC_33c5a.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_33c5a.dir\\Debug\\cmTC_33c5a.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         ClCompile:
-          D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_1ad1c.dir\\Debug\\\\" /Fd"cmTC_1ad1c.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_33c5a.dir\\Debug\\\\" /Fd"cmTC_33c5a.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.50.35727 鐗?
           鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_1ad1c.dir\\Debug\\\\" /Fd"cmTC_1ad1c.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_33c5a.dir\\Debug\\\\" /Fd"cmTC_33c5a.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\CodeBerew\\CalcWarrior\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w2d5yt\\Debug\\cmTC_1ad1c.exe" /INCREMENTAL /ILK:"cmTC_1ad1c.dir\\Debug\\cmTC_1ad1c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/CodeBerew/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-w2d5yt/Debug/cmTC_1ad1c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/CodeBerew/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-w2d5yt/Debug/cmTC_1ad1c.lib" /MACHINE:X64  /machine:x64 cmTC_1ad1c.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_1ad1c.vcxproj -> D:\\CodeBerew\\CalcWarrior\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w2d5yt\\Debug\\cmTC_1ad1c.exe
+          D:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\CodeBerew\\CalcWarrior\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4egffv\\Debug\\cmTC_33c5a.exe" /INCREMENTAL /ILK:"cmTC_33c5a.dir\\Debug\\cmTC_33c5a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/CodeBerew/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-4egffv/Debug/cmTC_33c5a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/CodeBerew/CalcWarrior/build/CMakeFiles/CMakeScratch/TryCompile-4egffv/Debug/cmTC_33c5a.lib" /MACHINE:X64  /machine:x64 cmTC_33c5a.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_33c5a.vcxproj -> D:\\CodeBerew\\CalcWarrior\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4egffv\\Debug\\cmTC_33c5a.exe
         FinalizeBuildStatus:
-          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_1ad1c.dir\\Debug\\cmTC_1ad1c.tlog\\unsuccessfulbuild鈥濄€?
-          姝ｅ湪瀵光€渃mTC_1ad1c.dir\\Debug\\cmTC_1ad1c.tlog\\cmTC_1ad1c.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-        宸插畬鎴愮敓鎴愰」鐩€淒:\\CodeBerew\\CalcWarrior\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w2d5yt\\cmTC_1ad1c.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_33c5a.dir\\Debug\\cmTC_33c5a.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_33c5a.dir\\Debug\\cmTC_33c5a.tlog\\cmTC_33c5a.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\CodeBerew\\CalcWarrior\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4egffv\\cmTC_33c5a.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
         
         宸叉垚鍔熺敓鎴愩€?
             0 涓鍛?
             0 涓敊璇?
         
-        宸茬敤鏃堕棿 00:00:00.92
+        宸茬敤鏃堕棿 00:00:01.44
         
       exitCode: 0
   -

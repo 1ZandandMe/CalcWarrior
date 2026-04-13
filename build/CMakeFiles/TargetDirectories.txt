@@ -1,3 +1,5 @@
-D:/CodeBerew/CalcWarrior/build/CMakeFiles/calc_warrior.dir
+D:/CodeBerew/CalcWarrior/build/CMakeFiles/1.dir
+D:/CodeBerew/CalcWarrior/build/CMakeFiles/maina.dir
+D:/CodeBerew/CalcWarrior/build/CMakeFiles/new.dir
 D:/CodeBerew/CalcWarrior/build/CMakeFiles/ALL_BUILD.dir
 D:/CodeBerew/CalcWarrior/build/CMakeFiles/ZERO_CHECK.dir
