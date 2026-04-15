@@ -2,25 +2,16 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug CalcWarrior (gdb)",
-            "type": "cppdbg",
+            "name": "Build & Run Current File",
+            "type": "cppvsdbg",  // MSVC 调试器；如果用 MinGW 则改为 "cppdbg"
             "request": "launch",
-            "program": "${workspaceFolder}/build/bin/Debug/calc_warrior.exe",
+            "program": "${command:cmake.launchTargetPath}",  // 依赖 CMake Tools 提供的路径
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
+            "cwd": "${fileDirname}",
             "environment": [],
-            "externalConsole": true,
-            "preLaunchTask": "CMake: Build CalcWarrior",
-            "MIMode": "gdb",
-            "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                }
-            ]
+            "console": "integratedTerminal",
+            "preLaunchTask": "CMake Build Current File Target"
         }
     ]
 }
