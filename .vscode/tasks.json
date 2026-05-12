@@ -2,19 +2,25 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "CMake Build Current File Target",
-            "type": "shell",
-            "command": "cmake",
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe build active file",
+            "command": "D:/mingw64/bin/g++.exe",
             "args": [
-                "--build", "${command:cmake.buildDirectory}",
-                "--target", "${fileBasenameNoExtension}",
-                "--config", "${command:cmake.buildType}"
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": ["$gcc"],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "problemMatcher": []
+            "detail": "compiler: D:/mingw64/bin/g++.exe"
         }
     ]
 }

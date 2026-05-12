@@ -1,0 +1,3 @@
+"D:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\new.dir/objects.a
+D:\mingw64\bin\ar.exe qc CMakeFiles\new.dir/objects.a @CMakeFiles\new.dir\objects1.rsp
+D:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\new.dir/objects.a -Wl,--no-whole-archive -o bin\new.exe -Wl,--out-implib,lib\libnew.dll.a -Wl,--major-image-version,1,--minor-image-version,0 @CMakeFiles\new.dir\linkLibs.rsp

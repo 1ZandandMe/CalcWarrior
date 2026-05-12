@@ -3,15 +3,16 @@
     "configurations": [
         {
             "name": "Build & Run Current File",
-            "type": "cppvsdbg",  // MSVC 调试器；如果用 MinGW 则改为 "cppdbg"
+            "type": "cppdbg",                          // 改为 cppdbg (GDB/LLDB)
             "request": "launch",
-            "program": "${command:cmake.launchTargetPath}",  // 依赖 CMake Tools 提供的路径
+            "program": "${command:cmake.launchTargetPath}", // 继续由 CMake Tools 提供路径
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
-            "console": "integratedTerminal",
-            "preLaunchTask": "CMake Build Current File Target"
+            "externalConsole": false,
+            "miDebuggerPath": "D:/mingw64/bin/gdb.exe", // 指定你的 GDB 路径
+            "preLaunchTask": "CMake Build Current File Target" // 保持不变
         }
     ]
 }

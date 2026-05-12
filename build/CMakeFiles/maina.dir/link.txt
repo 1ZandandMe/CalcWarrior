@@ -1,0 +1,3 @@
+"D:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\maina.dir/objects.a
+D:\mingw64\bin\ar.exe qc CMakeFiles\maina.dir/objects.a @CMakeFiles\maina.dir\objects1.rsp
+D:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\maina.dir/objects.a -Wl,--no-whole-archive -o bin\maina.exe -Wl,--out-implib,lib\libmaina.dll.a -Wl,--major-image-version,1,--minor-image-version,0 @CMakeFiles\maina.dir\linkLibs.rsp
