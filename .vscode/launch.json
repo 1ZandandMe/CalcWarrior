@@ -2,17 +2,17 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Build & Run Current File",
-            "type": "cppdbg",                          // 改为 cppdbg (GDB/LLDB)
+            "name": "调试当前文件(先编译再启动 GDB)",
+            "type": "cppdbg",
             "request": "launch",
-            "program": "${command:cmake.launchTargetPath}", // 继续由 CMake Tools 提供路径
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": false,
-            "miDebuggerPath": "D:/mingw64/bin/gdb.exe", // 指定你的 GDB 路径
-            "preLaunchTask": "CMake Build Current File Target" // 保持不变
+            "miDebuggerPath": "D:/mingw64/bin/gdb.exe",
+            "preLaunchTask": "C/C++: g++ 编译当前文件（单文件）"
         }
     ]
 }

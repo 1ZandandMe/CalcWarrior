@@ -1,0 +1,16 @@
+{
+    "terminal.integrated.env.windows": {
+        "TEMP": "D:\\temp",
+        "TMP": "D:\\temp",
+        "PIP_CACHE_DIR": "D:\\pip-cache",
+        "PATH": "${env:PATH};D:/mingw64/bin"
+    },
+    "cmake.ignoreCMakeListsMissing": true,
+    "cmake.generator": "MinGW Makefiles",
+    "cmake.configureEnvironment": {
+        "PATH": "D:/mingw64/bin;${env:PATH}"
+    },
+    "cmake.buildEnvironment": {
+        "PATH": "D:/mingw64/bin;${env:PATH}"
+    }
+}

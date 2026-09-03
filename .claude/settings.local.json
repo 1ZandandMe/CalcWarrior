@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "Read(//d/d/CodeBerew/CalcWarrior/pycode/**)",
+      "Bash(pyinstaller --onefile --console --name LANChat main.py)",
+      "Bash(ls -la \"/c/Users/Asus/.claude/projects/d--CodeBerew-CalcWarrior/memory/\")",
+      "Read(//c/Users/Asus/.claude/projects/d--CodeBerew-CalcWarrior/memory//**)",
+      "Bash(./server.exe)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(\"d:/CodeBerew/CalcWarrior/CPP/chatroom/server.exe\")",
+      "Bash(g++ -x c++ - -o \"d:/CodeBerew/CalcWarrior/CPP/chatroom/test.exe\")",
+      "Bash(\"d:/CodeBerew/CalcWarrior/CPP/chatroom/test.exe\")",
+      "Bash(\"d:/CodeBerew/CalcWarrior/CPP/chatroom/test_ssl.exe\")",
+      "Bash(PATH=/mingw64/opt/bin:__TRACKED_VAR__ d:/CodeBerew/CalcWarrior/CPP/chatroom/test_ssl.exe)",
+      "Bash(ldd \"d:/CodeBerew/CalcWarrior/CPP/chatroom/test_ssl.exe\")",
+      "Bash(cp /mingw64/opt/bin/libcrypto-3-x64.dll /mingw64/opt/bin/libssl-3-x64.dll \"d:/CodeBerew/CalcWarrior/CPP/chatroom/\" && echo \"copied\" && \"d:/CodeBerew/CalcWarrior/CPP/chatroom/test_ssl.exe\" 2>&1; echo \"exit: $?\")",
+      "Bash(objdump -p \"d:/CodeBerew/CalcWarrior/CPP/chatroom/test_ssl.exe\")",
+      "Bash(ldd /d/mingw64/opt/bin/libssl-3-x64.dll)",
+      "Bash(cmd //c \"test_ssl.exe 2>&1\")",
+      "Bash(\"d:\\\\CodeBerew\\\\CalcWarrior\\\\CPP\\\\chatroom\\\\test_ssl.exe\")",
+      "Bash(echo \"FAILED: $?\")"
+    ],
+    "additionalDirectories": [
+      "d:\\mingw64\\opt\\bin"
+    ]
+  }
+}

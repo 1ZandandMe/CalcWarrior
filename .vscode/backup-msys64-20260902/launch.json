@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "调试当前文件(先编译再启动 GDB)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "D:/msys64/ucrt64/bin/gdb.exe",
+            "preLaunchTask": "C/C++: g++ 编译当前文件(单文件)"
+        }
+    ]
+}

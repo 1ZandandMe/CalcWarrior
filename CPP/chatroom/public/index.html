@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CalcWarrior 加密聊天</title>
+<script src="tweetnacl.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0d1117;color:#c9d1d9;height:100vh;display:flex}
+#sidebar{width:200px;background:#161b22;border-right:1px solid #30363d;display:flex;flex-direction:column;padding:14px;flex-shrink:0;transition:width .2s;overflow:hidden}
+#sidebar.collapsed{width:40px;padding:14px 8px}
+#sidebar.collapsed h2,#sidebar.collapsed #user-list,#sidebar.collapsed .sl{display:none}
+#sidebar .tgl{background:none;border:none;color:#8b949e;cursor:pointer;font-size:16px;padding:0;margin-bottom:10px;text-align:left}
+#sidebar .tgl:hover{color:#c9d1d9}
+#sidebar h2{font-size:14px;margin-bottom:10px;color:#58a6ff}
+#user-list{font-size:12px;color:#8b949e;flex:1;overflow-y:auto}
+#user-list div{padding:3px 0}
+#overlay{position:fixed;inset:0;background:#0d1117;display:flex;align-items:center;justify-content:center;z-index:100}
+#overlay.hidden{display:none}
+#login-box{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:32px;width:360px;text-align:center}
+#login-box h1{font-size:20px;margin-bottom:4px;color:#58a6ff}
+#login-box .sub{font-size:12px;color:#8b949e;margin-bottom:18px}
+#login-box input{width:100%;padding:10px;margin:6px 0;background:#0d1117;border:1px solid #30363d;border-radius:6px;color:#c9d1d9;font-size:14px;outline:none}
+#login-box input:focus{border-color:#58a6ff}
+#login-box button{width:100%;padding:10px;margin-top:10px;background:#238636;border:none;border-radius:6px;color:white;font-size:14px;cursor:pointer}
+#login-box button:hover{background:#2ea043}
+#login-box .err{color:#f85149;font-size:12px;margin-top:8px;min-height:18px}
+#main{flex:1;display:flex;flex-direction:column;min-width:0}
+#header{background:#161b22;border-bottom:1px solid #30363d;padding:10px 20px;font-size:13px;display:flex;justify-content:space-between;align-items:center;flex-shrink:0}
+#header .rn{color:#58a6ff;font-weight:600}
+#header button{background:transparent;border:1px solid #30363d;color:#c9d1d9;padding:5px 12px;border-radius:6px;cursor:pointer;font-size:12px}
+#header button:hover{background:#1c2129}
+#msgs{flex:1;overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:5px}
+.msg{max-width:75%;padding:8px 13px;border-radius:12px;font-size:13px;line-height:1.5;word-break:break-word}
+.msg.sys{align-self:center;background:transparent;color:#8b949e;font-size:11px;max-width:90%}
+.msg.other{align-self:flex-start;background:#1c2129}
+.msg.self{align-self:flex-end;background:#1f6feb33}
+.msg .who{font-size:11px;color:#58a6ff;margin-bottom:2px;font-weight:600}
+.msg.self .who{color:#79c0ff}
+.msg.file{align-self:flex-start;background:#0d419d22;border:1px dashed #30363d;cursor:pointer}
+.msg.file:hover{border-color:#58a6ff}
+#bar{background:#161b22;border-top:1px solid #30363d;padding:10px 16px;display:flex;gap:8px;align-items:flex-end;flex-shrink:0}
+#bar textarea{flex:1;background:#0d1117;border:1px solid #30363d;border-radius:8px;color:#c9d1d9;padding:10px;font-size:13px;resize:none;outline:none;min-height:38px;max-height:110px;font-family:inherit}
+#bar textarea:focus{border-color:#58a6ff}
+#bar button{padding:9px 18px;background:#238636;border:none;border-radius:8px;color:white;cursor:pointer;font-size:13px;white-space:nowrap}
+#bar button:hover{background:#2ea043}
+#bar .fb{background:#1c2129!important;border:1px solid #30363d!important}
+#bar .fb:hover{background:#30363d!important}
+#dhint{display:none;position:fixed;inset:20px;background:#0d1117dd;align-items:center;justify-content:center;z-index:50;font-size:22px;color:#58a6ff;border:3px dashed #58a6ff;border-radius:16px;pointer-events:none}
+</style>
+</head>
+<body>
+
+<div id="overlay">
+  <div id="login-box">
+    <h1>CalcWarrior Chat</h1>
+    <div class="sub">端到端加密 · 服务器不可读</div>
+    <input id="in-name" placeholder="昵称" maxlength="20" autocomplete="off">
+    <input id="in-room" placeholder="房间名 (默认 lobby)" maxlength="30" autocomplete="off">
+    <input id="in-pass" type="password" placeholder="房间密码" maxlength="100">
+    <button onclick="doJoin()">加入房间</button>
+    <div class="err" id="login-err"></div>
+  </div>
+</div>
+
+<div id="sidebar">
+  <button class="tgl" onclick="document.getElementById('sidebar').classList.toggle('collapsed')">☰</button>
+  <h2>CalcWarrior</h2>
+  <div class="sl" style="font-size:11px;color:#8b949e;margin-bottom:6px">🔒 加密模式</div>
+  <div class="sl" style="font-size:11px;color:#8b949e;margin-bottom:10px">在线用户</div>
+  <div id="user-list"></div>
+</div>
+
+<div id="main">
+  <div id="header">
+    <span class="rn" id="rl">#lobby</span>
+    <button onclick="leaveRoom()">退出</button>
+  </div>
+  <div id="msgs"></div>
+  <div id="bar">
+    <input type="file" id="fu" style="display:none" onchange="sendFile(this.files[0])">
+    <button class="fb" onclick="document.getElementById('fu').click()">📎</button>
+    <textarea id="txt" placeholder="消息（加密发送）..." rows="1" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg()}"></textarea>
+    <button onclick="sendMsg()">发送</button>
+  </div>
+</div>
+
+<div id="dhint">📁 拖放文件到此处发送</div>
+
+<script>
+let ws=null, rk=null, mn='', mr='';
+
+// 用 tweetnacl 内置 SHA-512 做密钥派生（不依赖 crypto.subtle，HTTP/IP 也能用）
+function deriveKey(password) {
+  const enc = new TextEncoder();
+  let key = nacl.hash(enc.encode('CalcWarrior:' + password)); // SHA-512 → 64 bytes
+  for (let i = 0; i < 10000; i++) key = nacl.hash(key);       // 迭代 10000 次
+  return key.subarray(0, 32);                                   // 取前 32 字节
+}
+
+async function doJoin(){
+ const name=document.getElementById('in-name').value.trim();
+ const room=document.getElementById('in-room').value.trim()||'lobby';
+ const pass=document.getElementById('in-pass').value;
+ if(!name){E('请输入昵称');return}
+ if(!pass){E('请输入房间密码');return}
+ E('密钥派生中...');
+ try{ rk=deriveKey(pass); }catch(e){E('密钥派生失败:'+e.message);return}
+ E('');
+ document.getElementById('overlay').querySelector('.sub').textContent = '端到端加密 · 就绪';
+ mn=name; mr=room;
+ connect();
+}
+function E(m){document.getElementById('login-err').textContent=m}
+
+function connect(){
+ const p=location.protocol==='https:'?'wss:':'ws:';
+ ws=new WebSocket(p+'//'+location.host+'/ws');
+ ws.binaryType='arraybuffer';
+ ws.onopen=()=>{
+  ws.send(JSON.stringify({type:'join',name:mn,room:mr}));
+  document.getElementById('overlay').classList.add('hidden');
+  document.getElementById('rl').textContent='#'+mr;
+  S('已加入 #'+mr+'（端到端加密）');
+ };
+ ws.onmessage=(e)=>{
+  if(typeof e.data==='string'){
+   const d=JSON.parse(e.data);
+   if(d.type==='join'){S(d.name+' 加入了');U(d.users||[])}
+   else if(d.type==='leave'){S(d.name+' 离开了');U(d.users||[])}
+   else if(d.type==='system'){U(d.users||[])}
+  }else{
+   if(!rk)return;
+   try{
+    const d=new Uint8Array(e.data);
+    const nonce=d.subarray(0,24);
+    const box=d.subarray(24);
+    const plain=nacl.secretbox.open(box,nonce,rk);
+    if(!plain){return}
+    const txt=new TextDecoder().decode(plain);
+    if(txt.startsWith('MSG:')){
+     const j=JSON.parse(txt.substring(4));
+     M(j.name,j.msg,j.name===mn);
+    }else if(txt.startsWith('FILE:')){
+     const hdrEnd=txt.indexOf(':',5);
+     const datStart=txt.indexOf(':',hdrEnd+1);
+     if(hdrEnd>0&&datStart>hdrEnd){
+      const fn=txt.substring(5,hdrEnd);
+      const fs=parseInt(txt.substring(hdrEnd+1,datStart));
+      F(fn,fs,plain.subarray(datStart+1));
+     }
+    }
+   }catch(e){}
+  }
+ };
+ ws.onclose=()=>{S('断开');document.getElementById('overlay').classList.remove('hidden')};
+}
+
+function sendMsg(){
+ const el=document.getElementById('txt');
+ const msg=el.value.trim();
+ if(!msg||!ws||!rk)return;
+ const json=JSON.stringify({name:mn,msg});
+ const plain=new TextEncoder().encode('MSG:'+json);
+ const nonce=nacl.randomBytes(24);
+ const box=nacl.secretbox(plain,nonce,rk);
+ const pkt=new Uint8Array(24+box.length);
+ pkt.set(nonce); pkt.set(box,24);
+ ws.send(pkt.buffer);
+ M(mn,msg,true);
+ el.value='';
+}
+
+async function sendFile(file){
+ if(!file||!ws||!rk)return;
+ const raw=new Uint8Array(await file.arrayBuffer());
+ const head=new TextEncoder().encode('FILE:'+file.name+':'+raw.length+':');
+ const plain=new Uint8Array(head.length+raw.length);
+ plain.set(head); plain.set(raw,head.length);
+ const nonce=nacl.randomBytes(24);
+ const box=nacl.secretbox(plain,nonce,rk);
+ const pkt=new Uint8Array(24+box.length);
+ pkt.set(nonce); pkt.set(box,24);
+ ws.send(pkt.buffer);
+ // 发送者也能看到文件
+ F(file.name, raw.length, raw);
+ S('文件 '+file.name+' 已发送');
+}
+
+function F(fn,fs,data){
+ const d=document.createElement('div');
+ d.className='msg other file';
+ d.innerHTML='<div class="who">📁 文件</div>'+fn+' ('+K(fs)+')<br><span style="font-size:11px;color:#58a6ff">点击下载</span>';
+ d.onclick=()=>{
+  if(typeof Android !== 'undefined' && Android.downloadFile){
+   // Android WebView → 走原生下载
+   const bytes=Array.from(data);
+   let bin=''; for(let i=0;i<bytes.length;i++) bin+=String.fromCharCode(bytes[i]);
+   Android.downloadFile(btoa(bin), fn);
+  }else{
+   // 桌面浏览器 → blob 下载
+   const blob=new Blob([data]);
+   const a=document.createElement('a');
+   a.href=URL.createObjectURL(blob); a.download=fn; a.click();
+   URL.revokeObjectURL(a.href);
+  }
+ };
+ document.getElementById('msgs').appendChild(d);
+ SD();
+}
+
+function M(s,m,is){
+ const d=document.createElement('div');
+ d.className='msg '+(is?'self':'other');
+ if(!is)d.innerHTML='<div class="who">'+H(s)+'</div>';
+ d.appendChild(document.createTextNode(m));
+ document.getElementById('msgs').appendChild(d);
+ SD();
+}
+function S(m){const d=document.createElement('div');d.className='msg sys';d.textContent=m;document.getElementById('msgs').appendChild(d);SD()}
+function U(u){document.getElementById('user-list').innerHTML=u.map(x=>'<div>🟢 '+H(x)+'</div>').join('')}
+function SD(){const e=document.getElementById('msgs');e.scrollTop=e.scrollHeight}
+function leaveRoom(){if(ws)ws.close();document.getElementById('overlay').classList.remove('hidden');document.getElementById('msgs').innerHTML='';rk=null}
+function H(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML}
+function K(b){return b<1024?b+'B':b<1048576?(b/1024).toFixed(1)+'KB':(b/1048576).toFixed(1)+'MB'}
+
+document.addEventListener('dragover',e=>{e.preventDefault();document.getElementById('dhint').style.display='flex'});
+document.addEventListener('dragleave',e=>{if(e.target===document.documentElement)document.getElementById('dhint').style.display='none'});
+document.addEventListener('drop',e=>{
+ e.preventDefault();
+ document.getElementById('dhint').style.display='none';
+ if(e.dataTransfer.files.length)sendFile(e.dataTransfer.files[0]);
+});
+</script>
+</body>
+</html>

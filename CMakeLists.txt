@@ -23,25 +23,23 @@ message(STATUS "Build Type: ${CMAKE_BUILD_TYPE}")
 message(STATUS "Compiler: ${CMAKE_CXX_COMPILER_ID}")
 message(STATUS "C++ Standard: ${CMAKE_CXX_STANDARD}")
 
-# ========== 自动收集所有 .cpp 源文件 ==========
-file(GLOB_RECURSE ALL_CPP_SOURCES CONFIGURE_DEPENDS
-    "${CMAKE_CURRENT_SOURCE_DIR}/code/*.cpp"
+# ========== 可执行目标（显式列出，避免 GLOB 缓存导致构建不稳）==========
+set(EXECUTABLE_TARGETS
+    1
+    maina
+    new
 )
 
-if(NOT ALL_CPP_SOURCES)
-    message(WARNING "No .cpp files found in ${CMAKE_CURRENT_SOURCE_DIR}/code/")
-endif()
+foreach(TARGET_NAME ${EXECUTABLE_TARGETS})
+    set(CPP_FILE "${CMAKE_CURRENT_SOURCE_DIR}/code/${TARGET_NAME}.cpp")
 
-# ========== 为每个 .cpp 文件生成一个可执行目标 ==========
-foreach(CPP_FILE ${ALL_CPP_SOURCES})
-    get_filename_component(TARGET_NAME ${CPP_FILE} NAME_WE)
+    if(NOT EXISTS ${CPP_FILE})
+        message(WARNING "Skipping missing source: ${CPP_FILE}")
+        continue()
+    endif()
+
     add_executable(${TARGET_NAME} ${CPP_FILE})
-    
-    set_target_properties(${TARGET_NAME} PROPERTIES
-        VERSION 1.0
-        SOVERSION 1
-    )
-    
+
     # 统一编译选项（基于编译器和构建类型）
     target_compile_options(${TARGET_NAME} PRIVATE
         # GNU / Clang 选项
@@ -55,10 +53,10 @@ foreach(CPP_FILE ${ALL_CPP_SOURCES})
             $<$<CONFIG:Release>:/O2 /W4 /DNDEBUG /utf-8>
         >
     )
-    
+
     # 如需添加头文件目录，取消注释并修改路径
     # target_include_directories(${TARGET_NAME} PRIVATE include)
-    
+
     message(STATUS "Added executable target: ${TARGET_NAME} from ${CPP_FILE}")
 endforeach()
 

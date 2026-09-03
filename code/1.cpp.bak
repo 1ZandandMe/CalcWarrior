@@ -1,0 +1,37 @@
+#include <iostream>
+
+class lr {
+private:
+    int count = 0;
+public:
+    void increment() {
+        count++;
+    }
+    int add() {
+        return count;
+    }
+    int printFive(int n) {
+        int n;
+        for (int k = 0; k < n; ++k) {
+            for (int i = 0; i < 5; ++i) {
+                increment();
+            }
+        }
+        return add();
+    }
+};
+
+
+
+int main() {
+    system("chcp 65001"); // 设置控制台编码，支持中文输出
+    lr a;
+    int n;
+    std::cout << "你想要几个五：";
+    std::cin >> n;
+    int result = a.printFive(n);
+    // 执行 n 次“五连加”，每次 for 循环增加 5
+    std::cout << "总计数为：" << result << std::endl;
+
+    return 0;
+}

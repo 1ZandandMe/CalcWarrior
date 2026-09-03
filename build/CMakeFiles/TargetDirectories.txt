@@ -1,5 +1,0 @@
-D:/CodeBerew/CalcWarrior/build/CMakeFiles/1.dir
-D:/CodeBerew/CalcWarrior/build/CMakeFiles/maina.dir
-D:/CodeBerew/CalcWarrior/build/CMakeFiles/new.dir
-D:/CodeBerew/CalcWarrior/build/CMakeFiles/edit_cache.dir
-D:/CodeBerew/CalcWarrior/build/CMakeFiles/rebuild_cache.dir
